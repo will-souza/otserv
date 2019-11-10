@@ -930,4 +930,7 @@ mapNpcs = {
     [929] = {name = "A Lost Husher", pos = {x=32209,y=32531,z=15}},
     [930] = {name = "A Behemoth", pos = {x=32306,y=32582,z=15}},
     [931] = {name = "A Wyrm", pos = {x=32174,y=32598,z=15}},
+    [932] = {name = "Rashid", pos = {x=32351,y=32244,z=8}},
 }
+
+
