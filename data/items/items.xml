@@ -37839,9 +37839,6 @@
 	<item id="29217" article="a" name="Cateroide's doll" >
 		<attribute key="description" value="Souvenir from Thais Museum." />
 	</item>
-	<item id="29218" article="a" name="mathmaster shield" >
-		<attribute key="description" value="Souvenir from Thais Museum." />
-	</item>
 	<item id="29219" article="a" name="plain mayhem blade">
 		<attribute key="weight" value="5000" />
 		<attribute key="defense" value="5" />
@@ -39935,7 +39932,7 @@
 		<attribute key="absorbPercentIce" value="7" />
 		<attribute key="weight" value="3600" />
 	</item>
-	<item id="16103" article="a" name="VIP mathmaster shield"> <!-- VIP EK RP Shield -->
+	<item id="29218" article="a" name="VIP mathmaster shield"> <!-- VIP EK RP Shield -->
 		<attribute key="weaponType" value="shield" />
 		<attribute key="description" value="It's an Emblem of Wisdom." />
 		<attribute key="defense" value="45" />

@@ -1022,13 +1022,14 @@
 		<vocation name="Royal Paladin" showInDescription="0" />
 	</movevent>
 	<movevent event="DeEquip" itemid="36103" slot="necklace" function="onDeEquipItem" />
-	<movevent event="Equip" itemid="16103" slot="shield" level="8" function="onEquipItem"> <!-- VIP EK RP Shield -->
+	<movevent event="Equip" itemid="29218" slot="shield" level="8" function="onEquipItem"> <!-- VIP EK RP Shield -->
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" showInDescription="0" />
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" showInDescription="0" />
 	</movevent>
-	<movevent event="DeEquip" itemid="16103" slot="shield" function="onDeEquipItem" />
+	<movevent event="DeEquip" itemid="29218" slot="shield" function="onDeEquipItem" />
+	
 	<movevent event="Equip" itemid="16105" slot="head" level="8" function="onEquipItem"> <!-- VIP EK Helmet -->
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" showInDescription="0" />
