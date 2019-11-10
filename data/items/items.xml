@@ -3006,9 +3006,15 @@
 		<attribute key="slotType" value="ring" />
 	</item>
 	<item id="2358" name="boots of waterwalking">
-		<attribute key="description" value="(This item has 5 charges left)." />
-		<attribute key="weight" value="770" />
+		<attribute key="weight" value="800" />
 		<attribute key="slotType" value="feet" />
+		<attribute key="healthGain" value="80" />
+		<attribute key="healthTicks" value="2000" />
+		<attribute key="manaGain" value="100" />
+		<attribute key="imbuingSlots" value="1" />
+		<attribute key="speed" value="<30></30>" />
+		<attribute key="manaTicks" value="1000" />
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="2359" article="a" name="djinn's lamp">
 		<attribute key="description" value="(This item has 2 charges left)." />
@@ -9146,8 +9152,13 @@
 	<item fromid="5779" toid="5784" article="a" name="stuck arrow" />
 	<item id="5785" article="a" name="medal of honour">
 		<attribute key="weight" value="1000" />
-		<attribute key="writeable" value="1" />
-		<attribute key="maxTextLen" value="128" />
+		<attribute key="slotType" value="necklace" />
+		<attribute key="skillSword" value="4" />
+		<attribute key="skillClub" value="4" />
+		<attribute key="skillAxe" value="4" />
+		<attribute key="magiclevelpoints" value="3" />
+		<attribute key="speed" value="15" />
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="5786" article="a" name="wooden whistle">
 		<attribute key="weight" value="100" />
@@ -18231,11 +18242,7 @@
 		<attribute key="writeable" value="1" />
 		<attribute key="maxTextLen" value="128" />
 	</item>
-	<item id="10137" article="an" name="arcane insignia">
-		<attribute key="weight" value="1350" />
-		<attribute key="writeable" value="1" />
-		<attribute key="maxTextLen" value="128" />
-	</item>
+	
 	<item id="10138" article="a" name="hero's medal">
 		<attribute key="weight" value="1670" />
 		<attribute key="writeable" value="1" />
@@ -22975,10 +22982,7 @@
 	<item id="13944" article="a" name="shimmer ball">
 		<attribute key="weight" value="200" />
 	</item>
-	<item fromid="13946" toid="13947" article="the" name="Epic Wisdom">
-		<attribute key="description" value="This hat was handcrafted by Uman the Wise and cursed by Zathroth the Destroyer." />
-		<attribute key="weight" value="805" />
-	</item>
+	
 	<item fromid="13948" toid="13949" name="Imortus">
 		<attribute key="description" value="It knows all secrets of all numbers. It was awarded by fansite Exhiti.com." />
 		<attribute key="weight" value="4609" />
@@ -24470,14 +24474,7 @@
 		<attribute key="description" value="Use it to get a little surprise." />
 		<attribute key="weight" value="2000" />
 	</item>
-	<item fromid="16103" toid="16104" article="a" name="mathmaster shield">
-		<attribute key="description" value="It's an Emblem of Wisdom. Awarded by TibiaStat.com." />
-		<attribute key="weight" value="314" />
-	</item>
-	<item fromid="16105" toid="16106" article="a" name="medusa skull">
-		<attribute key="description" value="You see a medusa skull. Her hair's snakes are still alive. Awarded only on TibiaPic.com." />
-		<attribute key="weight" value="1000" />
-	</item>
+	
 	<item fromid="16107" toid="16108" article="a" name="doll of Durin The Almighty">
 		<attribute key="description" value="The mightiest. The only. God of all dwarfs. Awarded by Tibia Bariloche." />
 		<attribute key="weight" value="4000" />
@@ -33580,9 +33577,14 @@
 		<attribute key="weight" value="1500" />
 		<attribute key="description" value="A rare doll that only worthy warriors can touch! Awarded by Cateroide.com.br." />
 	</item>
-	<item fromid="24809" toid="24810" name="dark wizard's crown">
-		<attribute key="weight" value="1500" />
+	<item fromid="24809" toid="24810" name="dark wizard's crown"> <!-- VIP RP Helmet -->
 		<attribute key="description" value="The details are a mystery." />
+		<attribute key="weight" value="4300" />
+		<attribute key="armor" value="12" />
+		<attribute key="slotType" value="head" />
+		<attribute key="absorbPercentDeath" value="15" />
+		<attribute key="skillDist" value="7" />
+		<attribute key="imbuingSlots" value="1" />
 	</item>
 	<item id="24812" article="a" name="stairs">
 		<attribute key="floorchange" value="north" />
@@ -33768,19 +33770,30 @@
 		<attribute key="absorbPercentIce" value="-8" />
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="25175" article="a" name="fireheart hauberk">
+	<item id="25175" article="a" name="fireheart hauberk"> <!-- VIP EK Armor -->
 		<attribute key="weight" value="14500" />
 		<attribute key="armor" value="18" />
-		<attribute key="skillAxe" value="4" />
-		<attribute key="absorbPercentFire" value="8" />
-		<attribute key="absorbPercentIce" value="-8" />
+		<attribute key="skillAxe" value="7" />
+		<attribute key="skillClub" value="7" />
+		<attribute key="skillSword" value="7" />
+		<attribute key="absorbPercentDeath" value="15" />
+		<attribute key="imbuingSlots" value="2" />
+		<attribute key="slotType" value="body" />
+	</item>
+	<item id="25183" article="a" name="frostheart cuirass"> <!-- VIP MAGE Armor -->
+		<attribute key="weight" value="14500" />
+		<attribute key="armor" value="18" />
+		<attribute key="magiclevelpoints" value="7" />
+		<attribute key="imbuingSlots" value="2" />
+		<attribute key="absorbPercentIce" value="15" />
+		<attribute key="absorbPercentDeath" value="15" />
 		<attribute key="slotType" value="body" />
 	</item>
 	<item id="25176" article="a" name="fireheart platemail">
 		<attribute key="weight" value="14500" />
 		<attribute key="armor" value="18" />
 		<attribute key="skillClub" value="4" />
-		<attribute key="absorbPercentFire" value="8" />
+		<attribute key="absorbPercentDeath" value="8" />
 		<attribute key="absorbPercentIce" value="-8" />
 		<attribute key="slotType" value="body" />
 	</item>
@@ -33800,12 +33813,12 @@
 		<attribute key="absorbPercentFire" value="-8" />
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="25179" article="an" name="earthheart platemail">
+	<item id="25179" article="an" name="earthheart platemail"> <!-- VIP RP Armor -->
 		<attribute key="weight" value="14500" />
-		<attribute key="armor" value="18" />
-		<attribute key="skillClub" value="4" />
-		<attribute key="absorbPercentEarth" value="8" />
-		<attribute key="absorbPercentFire" value="-8" />
+		<attribute key="armor" value="20" />
+		<attribute key="skillDist" value="7" />
+		<attribute key="absorbPercentEarth" value="15" />
+		<attribute key="imbuingSlots" value="2" />
 		<attribute key="slotType" value="body" />
 	</item>
 	<item id="25180" article="a" name="thunderheart cuirass">
@@ -33832,14 +33845,7 @@
 		<attribute key="absorbPercentEarth" value="-8" />
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="25183" article="a" name="frostheart cuirass">
-		<attribute key="weight" value="14500" />
-		<attribute key="armor" value="18" />
-		<attribute key="skillSword" value="4" />
-		<attribute key="absorbPercentIce" value="8" />
-		<attribute key="absorbPercentEnergy" value="-8" />
-		<attribute key="slotType" value="body" />
-	</item>
+	
 	<item id="25184" article="a" name="frostheart hauberk">
 		<attribute key="weight" value="14500" />
 		<attribute key="armor" value="18" />
@@ -39841,6 +39847,14 @@
 	<item id="32410" article="the" name="Peacock Ballad">
 		<attribute key="weight" value="50" />
 	</item>
+	<item id="13946" article="the" name="Epic Wisdom"> <!-- VIP MAGE Helmet -->
+		<attribute key="slotType" value="head" />
+		<attribute key="armor" value="12" />
+		<attribute key="magiclevelpoints" value="7" />
+		<attribute key="absorbPercentDeath" value="15" />
+		<attribute key="weight" value="1500" />
+		<attribute key="imbuingSlots" value="1" />
+	</item>
 	<item id="32414" article="a" name="falcon circlet">
 		<attribute key="slotType" value="head" />
 		<attribute key="armor" value="8" />
@@ -39858,6 +39872,19 @@
 		<attribute key="absorbPercentFire" value="10" />
 		<attribute key="weight" value="2800" />
 		<attribute key="imbuingSlots" value="2" />
+	</item>
+	<item fromid="16105" toid="16106" article="a" name="medusa skull"> <!-- VIP EK Helmet -->
+		<attribute key="description" value="You see a medusa skull. Her hair's snakes are still alive. Awarded only on TibiaPic.com." />
+		<attribute key="slotType" value="head" />
+		<attribute key="armor" value="12" />
+		<attribute key="skillClub" value="4" />
+		<attribute key="skillAxe" value="4" />
+		<attribute key="skillSword" value="4" />
+		<attribute key="skillShield" value="3" />
+		<attribute key="absorbPercentPhysical" value="5" />
+		<attribute key="absorbPercentDeath" value="10" />
+		<attribute key="weight" value="4000" />
+		<attribute key="imbuingSlots" value="1" />
 	</item>
 	<item id="32416" article="a" name="falcon rod">
 		<attribute key="weaponType" value="wand" />
@@ -39907,6 +39934,16 @@
 		<attribute key="absorbPercentPhysical" value="7" />
 		<attribute key="absorbPercentIce" value="7" />
 		<attribute key="weight" value="3600" />
+	</item>
+	<item id="16103" article="a" name="VIP mathmaster shield"> <!-- VIP EK RP Shield -->
+		<attribute key="weaponType" value="shield" />
+		<attribute key="description" value="It's an Emblem of Wisdom." />
+		<attribute key="defense" value="45" />
+		<attribute key="absorbPercentPhysical" value="10" />
+		<attribute key="absorbPercentHoly" value="10" />
+		<attribute key="skillShield" value="7" />
+		<attribute key="weight" value="5700" />
+		<attribute key="imbuingSlots" value="1" />
 	</item>
 	<item id="32421" article="a" name="falcon shield">
 		<attribute key="weaponType" value="shield" />
@@ -43421,10 +43458,23 @@ Her... li.. .. S... ura... erim (The engraving is old and almost unreadable with
 		<attribute key="description" value="Souvenir from Thais Museum." />
 		<attribute key="weight" value="7700" />
 	</item>
-	<item id="36103" article="a" name="jade amulet">
-	    <attribute key="description" value="Souvenir from Thais Museum" />
-		<attribute key="weight" value="400" />
+	<item id="36103" article="a" name="jade amulet"> <!-- VIP RP Amulet -->
+	    <attribute key="description" value="Amulet for Epics Paladins" />
+		<attribute key="weight" value="500" />
 		<attribute key="slotType" value="necklace" />
+		<attribute key="skillDist" value="4" />
+		<attribute key="magiclevelpoints" value="3" />
+		<attribute key="speed" value="15" />
+		<attribute key="showattributes" value="1" />
+	</item>
+	<item id="10137" article="an" name="arcane insignia">
+		<attribute key="description" value="Amulet for Epic Mage" />
+		<attribute key="weight" value="500" />
+		<attribute key="slotType" value="necklace" />
+		<attribute key="skillShield" value="2" />
+		<attribute key="magiclevelpoints" value="5" />
+		<attribute key="speed" value="15" />
+		<attribute key="showattributes" value="1" />
 	</item>
 	<item id="36104" article="a" name="ankh mosaic" />
 	<item id="36118" article="a" name="fire bowl" />
