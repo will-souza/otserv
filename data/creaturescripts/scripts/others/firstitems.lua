@@ -1,9 +1,9 @@
 local config = {
 	[0] = {
-		--club, coat
-		items = {{2398, 1}, {2461, 1}, {2467, 1}, {2649, 1}},
+		--Legion Helmet, Chain Armor, Chain Legs ,Crocodile Boots, Rapier, Wooden Shield, Expedition Backpack, 5x Fish, Rope, Shovel
+		items = {{2480, 1}, {2464, 1}, {2648, 1}, {2384, 1}, {2512, 1}, {11241, 1}, {3982, 1}},
 		--container rope, shovel, red apple
-		container = {{2120, 1}, {2554, 1}, {2674, 2}}
+		container = {{2120, 1}, {2554, 1}, {6984, 5}}
 	},
 	[1] = {
 		--equipment spellbook, wand of vortex, magician's robe, mage hat, studded legs, leather boots, scarf
@@ -19,15 +19,15 @@ local config = {
 	},
 	[3] = {
 		--equipment dwarven shield, 5 spear, ranger's cloak, ranger legs scarf, legion helmet
-		items = {{2525, 1}, {2389, 5}, {2660, 1}, {8923, 1}, {2643, 1}, {2661, 1}, {2480, 1}},
+		items = {{2525, 1}, {2664, 1}, {2647, 1}, {11303, 1}, {2455, 1}, {2661, 1}, {10521, 1}},
 		--container platinum coin, rope, shovel, health potion, mana potion
-		container = {{2152, 20}, {7618, 5}, {7620, 5}, {18559, 1}, {2120, 1}}
+		container = {{2518, 1}, {2410, 1}, {2456, 1}, {2789, 25}, {2543, 1}, {2554, 1}}
 	},
 	[4] = {
-		--equipment dwarven shield, steel axe, brass armor, brass helmet, brass legs scarf
-		items = {{2525, 1}, {8601, 1}, {2465, 1}, {2460, 1}, {2478, 1}, {2643, 1}, {2661, 1}},
-		--container platinum coin, jagged sword, daramian mace, rope, shovel, health potion, mana potion
-		container = {{2152, 20}, {8602, 1}, {2439, 1}, {7618, 5}, {7620, 5}, {18559, 1}, {2120, 1}}
+		--Scarf, Crown Helmet, Crown Armor, Crown Legs, Zaoan Shoes, Spike Sword, Bonelord Shield, Moon Backpack
+		items = {{2491, 1}, {2487, 1}, {2488, 1}, {11303, 1}, {29151, 1}, {2518, 1}, {10521, 1}},
+		--container  Morning Star, Orcish Axe, 25x Brown Mushroom, Shovel, 20x Health Potion, 5x Mana Potion
+		container = {{2394, 1}, {2428, 1}, {2789, 25}, {5710, 1}, {7588, 20}, {18559, 1}, {7589, 5}}
 	}
 
 }
