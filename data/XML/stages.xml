@@ -2,17 +2,16 @@
 <stages>
 	<config enabled="1" />
 	<stage minlevel="1" maxlevel="8" multiplier="250" />
-	<stage minlevel="9" maxlevel="50" multiplier="400" />
-	<stage minlevel="51" maxlevel="100" multiplier="300" />
-	<stage minlevel="101" maxlevel="200" multiplier="200" />
-	<stage minlevel="201" maxlevel="350" multiplier="150" />
-	<stage minlevel="351" maxlevel="400" multiplier="100" />
-        <stage minlevel="401" maxlevel="450" multiplier="50" />
-        <stage minlevel="451" maxlevel="500" multiplier="40" />
-        <stage minlevel="501" maxlevel="550" multiplier="20" />
-        <stage minlevel="551" maxlevel="600" multiplier="10" />
-        <stage minlevel="601" maxlevel="650" multiplier="5" />
-        <stage minlevel="651" maxlevel="700" multiplier="3" />
-        <stage minlevel="701" maxlevel="750" multiplier="2" />
+	<stage minlevel="9" maxlevel="100" multiplier="500" />
+	<stage minlevel="101" maxlevel="200" multiplier="400" />
+	<stage minlevel="201" maxlevel="350" multiplier="250" />
+	<stage minlevel="351" maxlevel="400" multiplier="200" />
+    <stage minlevel="401" maxlevel="450" multiplier="150" />
+    <stage minlevel="451" maxlevel="500" multiplier="100" />
+    <stage minlevel="501" maxlevel="550" multiplier="50" />
+    <stage minlevel="551" maxlevel="600" multiplier="20" />
+    <stage minlevel="601" maxlevel="650" multiplier="5" />
+    <stage minlevel="651" maxlevel="700" multiplier="3" />
+    <stage minlevel="701" maxlevel="750" multiplier="2" />
 	<stage minlevel="751" multiplier="1" />
 </stages>
