@@ -1012,7 +1012,7 @@ GameStore.Categories = {
               }, {
                 count = 250,
                 number = 250,
-                description = "Here you can purchase a stack of '250 Ultimate Healing Runes'. Use them to unleash their magical energy when in need of it.Note, characters with a protection zone block or a battle sign cannot purchase runes. Also, characters cannotbuy runes that exceed their capacity. Finally, runes bought in the Store can only be used by the character that makes the purchase. For this reason, the purchased runes need to fit the character's level and magic level.",
+                description = "Here you can purchase a stack of '250 Paralize Runes'. Use them to unleash their magical energy when in need of it.Note, characters with a protection zone block or a battle sign cannot purchase runes. Also, characters cannotbuy runes that exceed their capacity. Finally, runes bought in the Store can only be used by the character that makes the purchase. For this reason, the purchased runes need to fit the character's level and magic level.",
                 icons = { "Paralyse_Rune.png" },
                 name = "Paralyse Rune",
                 price = 3,
@@ -1927,7 +1927,7 @@ GameStore.Categories = {
                   male = 733
                 },
                 type = GameStore.OfferTypes.OFFER_TYPE_OUTFIT,
-              },
+               } },
    rookgaard = true,
    state = GameStore.States.STATE_NONE,
  }, {
