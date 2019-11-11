@@ -17,7 +17,7 @@ GameStore.Categories = {
   {
     description = "Check out this category for the latest additions to the Store!",
     icons = { "Category_NewProducts.png" },
-    name = "New Products",
+    name = "Novos produtos",
       offers = { 
             {
             icons = { "Product_HouseEquipment_alchemisticcabinet.png" },
