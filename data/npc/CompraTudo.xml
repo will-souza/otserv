@@ -5,6 +5,7 @@
 	<parameters>
 		<parameter key="module_shop" value="1" />
 		<parameter key="shop_buyable" value="
+			yellow gem,2154,10000;
 			"
 			/>
 		<parameter key="shop_sellable" value="	

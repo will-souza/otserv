@@ -72,7 +72,8 @@
 			Wyvern Talisman,10561,7000;
 			rusty,9930,5000"
 			/>
-		<parameter key="shop_sellable" value="		
+		<parameter key="shop_sellable" value="	
+			yellow gem,2154,1000;	
 		" />
 	</parameters>
 </npc>
