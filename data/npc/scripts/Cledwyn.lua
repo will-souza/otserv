@@ -22,21 +22,18 @@ local items = {
           ['energy'] = 25192,
      },
      ['sword'] = {
-          ['ice'] = 25183,
           ['fire'] = 25174,
           ['earth'] = 25177,
           ['energy'] = 25180,
      },
      ['axe'] = {
           ['ice'] = 25184,
-          ['fire'] = 25175,
           ['earth'] = 25178,
           ['energy'] = 25181,
      },
      ['club'] = {
           ['ice'] = 25185,
           ['fire'] = 25176,
-          ['earth'] = 25179,
           ['energy'] = 25182,
      },
      ['distance'] = {

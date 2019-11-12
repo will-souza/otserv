@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <globalevents>
+	<!-- Texto no piso -->
+	<globalevent name="show" interval="1" script="show.lua"/>
+
 	<!-- boss falcon -->
 	<globalevent name="Canon Dominus" interval="900000" script="bosses/Grand Canon Dominus.lua" />
 	<globalevent name="Chaplaingaunder" interval="900000" script="bosses/Grand Chaplain Gaunder.lua" />
