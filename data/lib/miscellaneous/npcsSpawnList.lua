@@ -931,10 +931,10 @@ mapNpcs = {
     [932] = {name = "Rashid", pos = {x=32351,y=32244,z=8}},
     [933] = {name = "Maria", pos = {x=32347,y=32244,z=8}},
     [934] = {name = "Mateus", pos = {x=32357,y=32231,z=6}},
-    [935] = {name = "Nah'bob", pos = {x=32378,y=32239,z=6}},
+    [935] = {name = "Nah'bob", pos = {x=32377,y=32239,z=6}},
     [936] = {name = "Yaman", pos = {x=32378,y=32243,z=6}},
-    [936] = {name = "Token NPC", pos = {x=32372,y=32236,z=6}},
-    [936] = {name = "Compra Tudo", pos = {x=32359,y=32237,z=6}},
+    [937] = {name = "TokenNPC", pos = {x=32372,y=32236,z=6}},
+    [938] = {name = "CompraTudo", pos = {x=32359,y=32237,z=6}},
 }
 
 
