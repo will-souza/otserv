@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Token NPC" script="token.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100" />
+	<look type="129" head="97" body="118" legs="117" feet="97" addons="1" />
+
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			gold token,25377,750000;
+			golden raid token,21399,400000;
+			silver raid token,21400,400000;
+			silver token,25172,500000;
+			Major Crystalline Token,18423,300000" />
+		<parameter key="shop_sellable" value="
+			gold token,25377,325000;
+			golden raid token,21399,200000;
+			silver raid token,21400,200000;
+			silver token,25172,250000;
+			Major Crystalline Token,18423,150000
+			" />
+	</parameters>
+</npc>
