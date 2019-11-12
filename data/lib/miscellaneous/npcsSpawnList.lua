@@ -233,7 +233,6 @@ mapNpcs = {
     [232] = {name = "Captain Bluebear", pos = {x=32310,y=32209,z=6}},
     [233] = {name = "Todd", pos = {x=32363,y=32210,z=6}},
     [234] = {name = "Tim, The Guard", pos = {x=32425,y=32223,z=6}},
-    [235] = {name = "Galuna", pos = {x=32343,y=32245,z=6}},
     [236] = {name = "Robin", pos = {x=32289,y=32252,z=6}},
     [237] = {name = "Oldrak", pos = {x=32817,y=32261,z=6}},
     [238] = {name = "Lungelen", pos = {x=32303,y=32268,z=6}},
@@ -546,7 +545,6 @@ mapNpcs = {
     [545] = {name = "Donald McRonald", pos = {x=32389,y=32229,z=7}},
     [546] = {name = "Naji", pos = {x=32342,y=32229,z=7}},
     [547] = {name = "PigNPC", pos = {x=32401,y=32232,z=7}},
-    [548] = {name = "Elane", pos = {x=32342,y=32235,z=7}},
     [549] = {name = "Sherry McRonald", pos = {x=32391,y=32237,z=7}},
     [550] = {name = "Maelyrra", pos = {x=33485,y=32236,z=7}},
     [551] = {name = "Peaceful Pooka", pos = {x=33530,y=32238,z=7}},
@@ -931,6 +929,10 @@ mapNpcs = {
     [930] = {name = "A Behemoth", pos = {x=32306,y=32582,z=15}},
     [931] = {name = "A Wyrm", pos = {x=32174,y=32598,z=15}},
     [932] = {name = "Rashid", pos = {x=32351,y=32244,z=8}},
+    [933] = {name = "Maria", pos = {x=32347,y=32244,z=8}},
+    [934] = {name = "Mateus", pos = {x=32357,y=32231,z=6}},
+    [935] = {name = "Nah'bob", pos = {x=32378,y=32239,z=6}},
+    [936] = {name = "Yaman", pos = {x=32378,y=32239,z=6}},
 }
 
 
