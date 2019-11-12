@@ -1043,18 +1043,4 @@
 	<house name="Tunnel Gardens 10" houseid="2594" entryx="32606" entryy="31924" entryz="11" rent="0" townid="3" size="10" />
 	<house name="Tunnel Gardens 11" houseid="2595" entryx="32607" entryy="31924" entryz="12" rent="0" townid="3" size="11" />
 	<house name="Tunnel Gardens 12" houseid="2596" entryx="32603" entryy="31924" entryz="12" rent="0" townid="3" size="11" />
-	<!-- <house name="Depot Shop 1" houseid="2597" entryx="32360" entryy="32217" entryz="7" rent="0" townid="2" size="79" />
-	<house name="Depot House 1" houseid="2598" entryx="32345" entryy="32231" entryz="7" rent="0" townid="2" size="82" />
-	<house name="Depot House 2" houseid="2599" entryx="32354" entryy="32235" entryz="7" rent="0" townid="2" size="100" />
-	<house name="Depot Shop 2" houseid="2600" entryx="32349" entryy="32249" entryz="7" rent="0" townid="2" size="88" />
-	<house name="Farm Lane, 1st floor House" houseid="2601" entryx="32389" entryy="32238" entryz="7" rent="0" townid="2" size="59" />
-	<house name="Rook House 01" houseid="2602" entryx="32108" entryy="32205" entryz="6" rent="0" townid="2" size="26" />
-	<house name="Rook House 02" houseid="2603" entryx="32081" entryy="32203" entryz="6" rent="0" townid="2" size="10" />
-	<house name="Rook House 03" houseid="2604" entryx="32081" entryy="32207" entryz="6" rent="0" townid="2" size="11" />
-	<house name="Rook House 04" houseid="2605" entryx="32100" entryy="32179" entryz="6" rent="0" townid="2" size="5" />
-	<house name="Rook House 05" houseid="2606" entryx="32067" entryy="32203" entryz="6" rent="0" townid="2" size="3" />
-	<house name="Rook House 06" houseid="2607" entryx="32061" entryy="32204" entryz="6" rent="0" townid="2" size="3" />
-	<house name="Premium Rook House 01" houseid="2608" entryx="32028" entryy="32195" entryz="6" rent="0" townid="2" size="15" />
-	<house name="Magic Shop House" houseid="2609" entryx="32397" entryy="32216" entryz="7" rent="0" townid="1" size="61" />
-	<house name="Harbour Place 3" houseid="2610" entryx="32331" entryy="32208" entryz="7" rent="0" townid="2" size="82" /> -->
 </houses>
