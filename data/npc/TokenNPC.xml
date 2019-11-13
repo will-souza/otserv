@@ -2,8 +2,15 @@
 <npc name="Token NPC" script="token.lua" walkinterval="0" floorchange="0">
 	<health now="100" max="100" />
 	<look type="129" head="97" body="118" legs="117" feet="97" addons="1" />
-
+	<voices>
+		<voice text="My old bones feel a storm approaching. chuckles" interval2="90" margin="1" yell="no" />
+		<voice text="chuckles!" interval2="90" margin="1" yell="no" />
+	</voices>
 	<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="magic;" />
+		<parameter key="keyword_reply1" value="Vendo tokens." />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I trade with Tokens. If you need something, feel free to ask me for a trade." />
 		<parameter key="module_shop" value="1" />
 		<parameter key="shop_buyable" value="
 			gold token,25377,750000;

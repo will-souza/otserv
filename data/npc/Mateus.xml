@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <npc name="Mateus" script="compratudo.lua" walkinterval="2000" floorchange="0">
 	<health now="100" max="100" />
-	<look type="128" head="98" body="10" legs="116" feet="76" addons="3" />
+	<look type="99" />
+	<voices>
+		<voice text="My old bones feel a storm approaching. chuckles" interval2="90" margin="1" yell="no" />
+		<voice text="chuckles!" interval2="90" margin="1" yell="no" />
+	</voices>
 	<parameters>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="magic;" />
+		<parameter key="keyword_reply1" value="Vendo itens para imbuiment." />
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I trade with all. If you need something, feel free to ask me for a trade." />
 		<parameter key="module_shop" value="1" />
 		<parameter key="shop_buyable" value="
 			Battle Stone,12403,3000;

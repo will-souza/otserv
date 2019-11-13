@@ -161,5 +161,8 @@ function onLogin(player)
 	if player:getStorageValue(Storage.isTraining) == 1 then -- redefinir storage de exercise weapon
 		player:setStorageValue(Storage.isTraining,0)
 	end
+	if player:getStorageValue(cid, 30) < 1 then -- InServiceofYalahar 08
+    player:setStorageValue(cid, 30, 12248)
+end
     return true
 end
