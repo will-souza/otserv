@@ -1043,5 +1043,6 @@
 	<house name="Tunnel Gardens 10" houseid="2594" entryx="32606" entryy="31924" entryz="11" rent="3000" townid="3" size="10" />
 	<house name="Tunnel Gardens 11" houseid="2595" entryx="32607" entryy="31924" entryz="12" rent="3000" townid="3" size="11" />
 	<house name="Tunnel Gardens 12" houseid="2596" entryx="32603" entryy="31924" entryz="12" rent="3000" townid="3" size="11" />
-	<house name="DP House 01" houseid="2597" entryx="32360" entryy="32217" entryz="7" rent="3000" townid="2" size="75" />
+	<house name="DP House 01" houseid="2612" entryx="32360" entryy="32217" entryz="7" rent="3000" townid="2" size="77" />
+	<house name="Cais House Thais" houseid="2613" entryx="32331" entryy="32208" entryz="7" rent="3000" townid="2" size="82" />
 </houses>
