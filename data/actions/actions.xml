@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 	<!-- Quest Mount -->
-	<action actionid="12131" event="script" value="mount1.lua"/>
+	<action actionid="12131" script="others/mount1.lua"/>
 	<!-- Addons -->
 	<action fromid="18517" toid="18522" script="addons/addons.lua" />
 	<action fromid="13540" toid="13545" script="addons/afflictedOutfit.lua" />
