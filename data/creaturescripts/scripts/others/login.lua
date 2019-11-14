@@ -31,6 +31,19 @@ function onLogin(player)
 	else
 		if loginStr ~= "" then
 			player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
+			--Quests Liberadas;
+		--In Service of Yalahar 
+			player:setStorageValue(Storage.InServiceofYalahar.Questline, 5) --> START
+			player:setStorageValue(Storage.InServiceofYalahar.Mission01, 6) --> END MISSION
+			player:setStorageValue(Storage.InServiceofYalahar.Mission02, 8) --> END MISSION
+			player:setStorageValue(Storage.InServiceofYalahar.Mission03, 6) --> END MISSION
+			player:setStorageValue(Storage.InServiceofYalahar.Mission04, 6) --> END MISSION
+			player:setStorageValue(Storage.InServiceofYalahar.Mission05, 8) --> END MISSION
+			player:setStorageValue(Storage.InServiceofYalahar.Mission06, 5) --> END MISSION
+			player:setStorageValue(Storage.InServiceofYalahar.Mission07, 5) --> END MISSION
+			player:setStorageValue(Storage.InServiceofYalahar.Mission08, 4) --> END MISSION
+			player:setStorageValue(Storage.InServiceofYalahar.Mission09, 2) --> END MISSION
+			player:setStorageValue(Storage.InServiceofYalahar.Mission10, 1) --> OPEN MISSION
 		end
 
 		loginStr = string.format('Your last visit was on %s.', os.date('%a %b %d %X %Y', player:getLastLoginSaved()))
@@ -161,8 +174,6 @@ function onLogin(player)
 	if player:getStorageValue(Storage.isTraining) == 1 then -- redefinir storage de exercise weapon
 		player:setStorageValue(Storage.isTraining,0)
 	end
-	if player:getStorageValue(cid, 30) < 1 then -- InServiceofYalahar 08
-    player:setStorageValue(cid, 30, 12248)
-end
+	
     return true
 end
