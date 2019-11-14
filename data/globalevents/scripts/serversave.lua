@@ -1,4 +1,4 @@
-local shutdownAtServerSave = true
+local shutdownAtServerSave = false
 local closeAtServerSave = false
 local cleanMapAtServerSave = false
 
