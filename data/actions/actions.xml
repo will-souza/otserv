@@ -2,7 +2,6 @@
 <actions>
 	<!-- Quest Mount -->
 	<!-- <action actionid="12131" script="others/mount1.lua"/> -->
-	<action actionid="30492" script="rookgaard/chest.lua" />
 	
 	<!-- Addons -->
 	<action fromid="18517" toid="18522" script="addons/addons.lua" />
