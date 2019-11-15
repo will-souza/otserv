@@ -155,4 +155,9 @@
 	<mount id="153" clientid="1264" name="Floating Sage" speed="20" premium="yes" />
 	<mount id="154" clientid="1265" name="Floating Scholar" speed="20" premium="yes" />
 	<mount id="155" clientid="1266" name="Floating Augur" speed="20" premium="yes" />
+	<mount id="156" clientid="263" name="Crystal Spider" speed="20" premium="yes" />
+	<mount id="157" clientid="305" name="Mutated Rat" speed="20" premium="yes" />
+	<mount id="159" clientid="120" name="Carniphila" speed="20" premium="yes" />
+	<mount id="160" clientid="245" name="Nightmare" speed="20" premium="yes" />
+	<mount id="161" clientid="192" name="Carrion Worm" speed="20" premium="yes" />
 </mounts>
