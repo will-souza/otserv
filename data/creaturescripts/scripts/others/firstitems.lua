@@ -19,13 +19,13 @@ local config = {
 	},
 	[3] = {
 		--equipment dwarven shield, 5 spear, ranger's cloak, ranger legs scarf, legion helmet
-		items = {{2525, 1}, {2664, 1}, {2647, 1}, {11303, 1}, {2455, 1}, {2661, 1}, {10521, 1}},
+		items = {{2525, 1}, {2664, 1}, {2647, 1}, {11303, 1}, {2455, 1}, {2661, 1}, {36460, 1}},
 		--container platinum coin, rope, shovel, health potion, mana potion
 		container = {{2518, 1}, {2410, 1}, {2456, 1}, {2789, 25}, {2543, 1}, {2554, 1}}
 	},
 	[4] = {
 		--Scarf, Crown Helmet, Crown Armor, Crown Legs, Zaoan Shoes, Spike Sword, Bonelord Shield, Moon Backpack
-		items = {{2491, 1}, {2487, 1}, {2488, 1}, {11303, 1}, {29151, 1}, {2518, 1}, {10521, 1}},
+		items = {{2491, 1}, {2487, 1}, {2488, 1}, {11303, 1}, {29151, 1}, {2518, 1}, {36460, 1}},
 		--container  Morning Star, Orcish Axe, 25x Brown Mushroom, Shovel, 20x Health Potion, 5x Mana Potion
 		container = {{2394, 1}, {2428, 1}, {2789, 25}, {5710, 1}, {7588, 20}, {18559, 1}, {7589, 5}}
 	}
@@ -50,7 +50,7 @@ function onLogin(player)
 		player:addItem(targetVocation.items[i][1], targetVocation.items[i][2])
 	end
 
-	local backpack = player:getVocation():getId() == 0 and player:addItem(10521) or player:addItem(10521)
+	local backpack = player:getVocation():getId() == 0 and player:addItem(36460) or player:addItem(36460)
 	if not backpack then
 		return true
 	end
