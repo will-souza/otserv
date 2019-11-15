@@ -1,14 +1,11 @@
-function onUse(cid, item, fromPosition, itemEx, toPosition)
-
-local effect = 30 -- efeito ao clicar no baú
-local storage = 34530 
-
-if(player:getStorageValue(cid, 34530) > 0) then
-return TRUE
-end
-﻿
-player:addMount(437) -- Aqui é o ID da montaria, você pode encontrar em DATA/XML/mounts.xml.
-toPosition:sendMagicEffect(CONST_ME_SOUND_RED)
-
-return TRUE
+function onUse(player, item, fromPosition, target, toPosition, isHotkey)
+	
+	if not player:hasMount(438) then
+		player:addMount(438)
+		player:say(mount.message, TALKTYPE_MONSTER_SAY)
+		item:remove(1)
+	else
+		player:sendTextMessage(19, "You already have this mount")
+	end
+	return true
 end
