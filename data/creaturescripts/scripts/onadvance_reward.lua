@@ -1,7 +1,11 @@
 local rewards = {
     [SKILL_SWORD] = {
         {lvl = 30, items = {{2160, 2}, {2148, 1}}, storage = 54776},
-        {lvl = 20, items = {{2365, 2}}, storage = 54777}
+        {lvl = 50, items = {{2160, 2}, {2148, 1}}, storage = 54777},
+        {lvl = 60, items = {{2160, 2}, {2148, 1}}, storage = 54778},
+        {lvl = 70, items = {{2160, 2}, {2148, 1}}, storage = 54779},
+        {lvl = 80, items = {{2160, 2}, {2148, 1}}, storage = 54780},
+        {lvl = 90, items = {{2365, 2}}, storage = 54781}
     },
     [SKILL_MAGLEVEL] = {
         {lvl = 100, items = {{2365, 2}}, storage = 54778},
