@@ -1,20 +1,12 @@
-function onClick(player, item, fromPosition, target, toPosition, isHotkey)
-
-	local chest = config[item.uid]
-	if not chest then
-		return true
-	end
-	if player:getStorageValue(item.uid) >= 1 then
-		player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'The chest is empty.')
-		return true
-	end
-	if not player:hasMount(438) then
-		player:setStorageValue(item.uid, 1)
-		player:addMount(438)
-		player:say(mount.message, TALKTYPE_MONSTER_SAY)
-
-	else
-		player:sendTextMessage(19, "You already have this mount")
-	end
-	return true
+function onUse(cid, item, fromPosition, itemEx, toPosition, isHotkey)
+local player = Player(cid)
+if not player:hasMount(23) then
+player:addMount(23)
+player:getPosition():sendMagicEffect(15)
+doCreatureSay(cid, "You received Armoured War Horse.", TALKTYPE_ORANGE_1)
+else
+player:getPosition():sendMagicEffect(3)
+player:sendTextMessage(MESSAGE_INFO_DESCR, "You already have this mount.")
+end
+return true
 end

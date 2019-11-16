@@ -1550,6 +1550,12 @@
 		<attribute key="slotType" value="backpack" />
 		<attribute key="imbuingSlots" value="1" />
 	</item>
+	<item id="36460" article="a" name="winged backpack">
+		<attribute key="weight" value="1500" />
+		<attribute key="containerSize" value="24" />
+		<attribute key="slotType" value="backpack" />
+		<attribute key="imbuingSlots" value="1" />
+	</item>
 	<item id="1999" article="a" name="yellow backpack">
 		<attribute key="weight" value="1800" />
 		<attribute key="containerSize" value="20" />
@@ -9150,7 +9156,7 @@
 	<item fromid="5771" toid="5774" name="metal fittings" />
 	<item fromid="5777" toid="5778" article="a" name="target board" />
 	<item fromid="5779" toid="5784" article="a" name="stuck arrow" />
-	<item id="5785" article="a" name="medal of honour">
+	<item id="5785" article="a" name="Epic EK Amulet">
 		<attribute key="weight" value="1000" />
 		<attribute key="slotType" value="necklace" />
 		<attribute key="skillSword" value="4" />
@@ -33577,7 +33583,7 @@
 		<attribute key="weight" value="1500" />
 		<attribute key="description" value="A rare doll that only worthy warriors can touch! Awarded by Cateroide.com.br." />
 	</item>
-	<item fromid="24809" toid="24810" name="dark wizard's crown"> <!-- VIP RP Helmet -->
+	<item fromid="24809" toid="24810" name="Epic RP Helmet"> <!-- VIP RP Helmet -->
 		<attribute key="description" value="The details are a mystery." />
 		<attribute key="weight" value="4300" />
 		<attribute key="armor" value="12" />
@@ -33770,7 +33776,7 @@
 		<attribute key="absorbPercentIce" value="-8" />
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="25175" article="a" name="fireheart hauberk"> <!-- VIP EK Armor -->
+	<item id="25175" article="a" name="Epic EK Armor"> <!-- VIP EK Armor -->
 		<attribute key="weight" value="14500" />
 		<attribute key="armor" value="18" />
 		<attribute key="skillAxe" value="7" />
@@ -33780,7 +33786,7 @@
 		<attribute key="imbuingSlots" value="2" />
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="25183" article="a" name="frostheart cuirass"> <!-- VIP MAGE Armor -->
+	<item id="25183" article="a" name="Epic Mage Armor"> <!-- VIP MAGE Armor -->
 		<attribute key="weight" value="14500" />
 		<attribute key="armor" value="18" />
 		<attribute key="magiclevelpoints" value="7" />
@@ -33813,7 +33819,7 @@
 		<attribute key="absorbPercentFire" value="-8" />
 		<attribute key="slotType" value="body" />
 	</item>
-	<item id="25179" article="an" name="earthheart platemail"> <!-- VIP RP Armor -->
+	<item id="25179" article="an" name="Epic RP Armor"> <!-- VIP RP Armor -->
 		<attribute key="weight" value="14500" />
 		<attribute key="armor" value="20" />
 		<attribute key="skillDist" value="7" />
@@ -39844,7 +39850,7 @@
 	<item id="32410" article="the" name="Peacock Ballad">
 		<attribute key="weight" value="50" />
 	</item>
-	<item id="13946" article="the" name="Epic Wisdom"> <!-- VIP MAGE Helmet -->
+	<item id="13946" article="the" name="Epic Mage Helmet"> <!-- VIP MAGE Helmet -->
 		<attribute key="slotType" value="head" />
 		<attribute key="armor" value="12" />
 		<attribute key="magiclevelpoints" value="7" />
@@ -39870,7 +39876,7 @@
 		<attribute key="weight" value="2800" />
 		<attribute key="imbuingSlots" value="2" />
 	</item>
-	<item fromid="16105" toid="16106" article="a" name="medusa skull"> <!-- VIP EK Helmet -->
+	<item fromid="16105" toid="16106" article="a" name="Epic EK Helmet"> <!-- VIP EK Helmet -->
 		<attribute key="description" value="You see a medusa skull. Her hair's snakes are still alive. Awarded only on TibiaPic.com." />
 		<attribute key="slotType" value="head" />
 		<attribute key="armor" value="12" />
@@ -39932,7 +39938,7 @@
 		<attribute key="absorbPercentIce" value="7" />
 		<attribute key="weight" value="3600" />
 	</item>
-	<item id="29218" article="a" name="VIP mathmaster shield"> <!-- VIP EK RP Shield -->
+	<item id="29218" article="a" name="Epic Tibia Shield"> <!-- VIP EK RP Shield -->
 		<attribute key="weaponType" value="shield" />
 		<attribute key="description" value="It's an Emblem of Wisdom." />
 		<attribute key="defense" value="45" />
@@ -43455,7 +43461,7 @@ Her... li.. .. S... ura... erim (The engraving is old and almost unreadable with
 		<attribute key="description" value="Souvenir from Thais Museum." />
 		<attribute key="weight" value="7700" />
 	</item>
-	<item id="36103" article="a" name="jade amulet"> <!-- VIP RP Amulet -->
+	<item id="36103" article="a" name="Epic Amulet RP"> <!-- VIP RP Amulet -->
 	    <attribute key="description" value="Amulet for Epics Paladins" />
 		<attribute key="weight" value="500" />
 		<attribute key="slotType" value="necklace" />
@@ -43464,7 +43470,7 @@ Her... li.. .. S... ura... erim (The engraving is old and almost unreadable with
 		<attribute key="speed" value="15" />
 		<attribute key="showattributes" value="1" />
 	</item>
-	<item id="10137" article="an" name="arcane insignia">
+	<item id="10137" article="an" name="Epic Mage Amulet">
 		<attribute key="description" value="Amulet for Epic Mage" />
 		<attribute key="weight" value="500" />
 		<attribute key="slotType" value="necklace" />
@@ -44394,12 +44400,6 @@ Her... li.. .. S... ura... erim (The engraving is old and almost unreadable with
 	</item>
 	<item id="36459" name="Urmahlullu's paw" plural="Urmahlullu's paws">
 		<attribute key="weight" value="76" />
-	</item>
-	<item id="36460" article="a" name="winged backpack">
-		<attribute key="weight" value="1500" />
-		<attribute key="containerSize" value="24" />
-		<attribute key="slotType" value="backpack" />
-		<attribute key="imbuingSlots" value="1" />
 	</item>
 	<item fromid="36461" toid="36465" article="a" name="gryphon nest" />
 	<item id="36466" name="the cobra amulet">

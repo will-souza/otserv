@@ -1035,7 +1035,7 @@
 		<vocation name="Elite Knight" showInDescription="0" />
 	</movevent>
 	<movevent event="DeEquip" itemid="16105" level="8" slot="head" function="onDeEquipItem" />
-	<movevent event="Equip" itemid="25175" slot="armor" level="200" function="onEquipItem"><!--  VIP EK Armor -->
+	<movevent event="Equip" itemid="25175" slot="armor" level="8" function="onEquipItem"><!--  VIP EK Armor -->
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" showInDescription="0" />
 	</movevent>
@@ -2337,6 +2337,12 @@
 		<vocation name="Elite Knight" showInDescription="0" />
 	</movevent>
 	<movevent event="DeEquip" itemid="25919" slot="hand" function="onDeEquipItem" />
+	<!-- Spike Sword -->
+	<movevent event="Equip" itemid="2383" slot="hand" level="100" function="onEquipItem">
+		<vocation name="Knight" />
+		<vocation name="Elite Knight" showInDescription="0" />
+	</movevent>
+	<movevent event="DeEquip" itemid="2383" slot="hand" function="onDeEquipItem" />
 
 	<!-- slayer of remedy -->
 	<movevent event="Equip" itemid="25923" slot="hand" level="100" function="onEquipItem">
