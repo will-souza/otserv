@@ -25,16 +25,16 @@ function onStepIn(creature, item, position, fromPosition)
 	if not teleport then
 		return
 	end
-	if item.itemid == 11796 then
-		if player:getStorageValue(Storage.ForgottenKnowledge.AccessLast) < 1 then
-			if player:getStorageValue(Storage.ForgottenKnowledge.LadyTenebrisKilled) >= 1 and player:getStorageValue(Storage.ForgottenKnowledge.LloydKilled) >= 1 and
-				player:getStorageValue(Storage.ForgottenKnowledge.ThornKnightKilled) >= 1 and player:getStorageValue(Storage.ForgottenKnowledge.DragonkingKilled) >= 1 and
-				player:getStorageValue(Storage.ForgottenKnowledge.HorrorKilled) >= 1 and player:getStorageValue(Storage.ForgottenKnowledge.TimeGuardianKilled) >= 1 then
+	-- if item.itemid == 11796 then
+	-- 	if player:getStorageValue(Storage.ForgottenKnowledge.AccessLast) < 1 then
+	-- 		if player:getStorageValue(Storage.ForgottenKnowledge.LadyTenebrisKilled) >= 1 and player:getStorageValue(Storage.ForgottenKnowledge.LloydKilled) >= 1 and
+	-- 			player:getStorageValue(Storage.ForgottenKnowledge.ThornKnightKilled) >= 1 and player:getStorageValue(Storage.ForgottenKnowledge.DragonkingKilled) >= 1 and
+	-- 			player:getStorageValue(Storage.ForgottenKnowledge.HorrorKilled) >= 1 and player:getStorageValue(Storage.ForgottenKnowledge.TimeGuardianKilled) >= 1 then
 
-				player:setStorageValue(Storage.ForgottenKnowledge.AccessLast, 1)
-			end
-		end
-	end
+	-- 			player:setStorageValue(Storage.ForgottenKnowledge.AccessLast, 1)
+	-- 		end
+	-- 	end
+	-- end
 	if player:getStorageValue(teleport.storage) >= 1 then
 		position:sendMagicEffect(teleport.effect)
 		player:teleportTo(teleport.newPos)
