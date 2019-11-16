@@ -56,15 +56,15 @@ function onLogin(player)
         player:setStorageValue(Storage.WrathoftheEmperor.Mission09, 2)
         player:setStorageValue(Storage.WrathoftheEmperor.Mission10, 1)
         --Imbuiment
-        player:setStorageValue(Storage.ForgottenKnowledge.Tomes, 1)
-        player:setStorageValue(Storage.ForgottenKnowledge.LastLoreKilled, 1)    
-        player:setStorageValue(Storage.ForgottenKnowledge.TimeGuardianKilled, 1)
-        player:setStorageValue(Storage.ForgottenKnowledge.HorrorKilled, 1)
-        player:setStorageValue(Storage.ForgottenKnowledge.DragonkingKilled, 1)
-        player:setStorageValue(Storage.ForgottenKnowledge.ThornKnightKilled, 1)
-        player:setStorageValue(Storage.ForgottenKnowledge.LloydKilled, 1)
-        player:setStorageValue(Storage.ForgottenKnowledge.LadyTenebrisKilled, 1)
-        player:setStorageValue(Storage.ForgottenKnowledge.AccessMachine, 1)
+        player:setStorageValue(Storage.ForgottenKnowledge.Tomes, 2)
+        player:setStorageValue(Storage.ForgottenKnowledge.LastLoreKilled, 2)    
+        player:setStorageValue(Storage.ForgottenKnowledge.TimeGuardianKilled, 2)
+        player:setStorageValue(Storage.ForgottenKnowledge.HorrorKilled, 2)
+        player:setStorageValue(Storage.ForgottenKnowledge.DragonkingKilled, 2)
+        player:setStorageValue(Storage.ForgottenKnowledge.ThornKnightKilled, 2)
+        player:setStorageValue(Storage.ForgottenKnowledge.LloydKilled, 2)
+        player:setStorageValue(Storage.ForgottenKnowledge.LadyTenebrisKilled, 2)
+        player:setStorageValue(Storage.ForgottenKnowledge.AccessMachine, 2)
         --SearoutsYalahar
         player:setStorageValue(Storage.SearoutesAroundYalahar.Darashia, 1)
         player:setStorageValue(Storage.SearoutesAroundYalahar.AbDendriel, 1)
@@ -206,7 +206,7 @@ function onLogin(player)
 	if player:getStorageValue(Storage.isTraining) == 1 then -- redefinir storage de exercise weapon
 		player:setStorageValue(Storage.isTraining,0)
 	end
-local quests = {"What a Foolish", "War Against The Hive", "Unnatural Selection", "Tibia Tales", "The White Raven Monastery", "The Thieves Guild", "The Rookie Guard", "The Repenters", "The Queen of the Banshees", "The Ice Islands", "The Gravedigger of Drefia", "The Desert Dungeon", "The Beginning", "The Ancient Tombs", "Spike Tasks", "Secret Service", "Sea of Light", "Hot Cuisine", "Friends and Traders", "Elemental Spheres", "Adventurers Guild", "A Father's Burden", "The Shattered Isles", "The Postman Missions", "Bigfoot's Burden", "The Hidden City Of Beregar", "The Ape City", "Children Of The Revolution", "The New Frontier", "The Explorer Society", "Frgotten Knowledge", "Spirithunters Quest, "} -- coloca os nomes das quests aqui
+local quests = {"What a Foolish", "War Against The Hive", "Unnatural Selection", "Tibia Tales", "The White Raven Monastery", "The Thieves Guild", "The Rookie Guard", "The Repenters", "The Queen of the Banshees", "The Ice Islands", "The Gravedigger of Drefia", "The Desert Dungeon", "The Beginning", "The Ancient Tombs", "Spike Tasks", "Secret Service", "Sea of Light", "Hot Cuisine", "Friends and Traders", "Elemental Spheres", "Adventurers Guild", "A Father's Burden", "The Shattered Isles", "The Postman Missions", "Bigfoot's Burden", "The Hidden City Of Beregar", "The Ape City", "Children Of The Revolution", "The New Frontier", "The Explorer Society", "Forgotten Knowledge", "Spirithunters Quest, "} -- coloca os nomes das quests aqui
 
 for i, questname in pairs(quests) do
     local quest = Game.getQuest(Game.getQuestIdByName(questname))
