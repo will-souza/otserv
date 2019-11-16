@@ -7,15 +7,15 @@ local config = {
 	},
 	[1] = {
 		--equipment spellbook, wand of vortex, magician's robe, mage hat, studded legs, leather boots, scarf
-		items = {{2175, 1}, {2190, 1}, {8819, 1}, {8820, 1}, {2468, 1}, {2643, 1}, {2661, 1}},
+		items = {{2175, 1}, {2190, 1}, {8871, 1}, {10016, 1}, {2478, 1}, {11303, 1}, {2661, 1}},
 		--container platinum coin, rope, shovel, mana potion
-		container = {{2152, 20}, {7620, 5}, {18559, 1}, {2120, 1}}
+		container = {{2152, 20}, {7620, 25}, {18559, 1}, {2120, 1}}
 	},
 	[2] = {
 		--equipment spellbook, snakebite rod, magician's robe, mage hat, studded legs, leather boots scarf
-		items = {{2175, 1}, {2182, 1}, {8819, 1}, {8820, 1}, {2468, 1}, {2643, 1}, {2661, 1}},
+		items = {{2175, 1}, {2182, 1}, {8871, 1}, {10016, 1}, {2478, 1}, {11303, 1}, {2661, 1}},
 		--container platinum coin, rope, shovel, mana potion
-		container = {{2152, 20}, {7620, 5}, {18559, 1}, {2120, 1}}
+		container = {{2152, 20}, {7620, 25}, {18559, 1}, {2120, 1}}
 	},
 	[3] = {
 		--equipment dwarven shield, 5 spear, ranger's cloak, ranger legs scarf, legion helmet
