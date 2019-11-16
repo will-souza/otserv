@@ -25,7 +25,7 @@ local config = {
 	},
 	[4] = {
 		--Scarf, Crown Helmet, Crown Armor, Crown Legs, Zaoan Shoes, Spike Sword, Bonelord Shield, Moon Backpack
-		items = {{2491, 1}, {2487, 1}, {2488, 1}, {11303, 1}, {2383, 1}, {2518, 1}, {36460, 1}},
+		items = {{2491, 1}, {2487, 1}, {2488, 1}, {11303, 1}, {2383	, 1}, {2518, 1}, {36460, 1}},
 		--container  Morning Star, Orcish Axe, 25x Brown Mushroom, Shovel, 20x Health Potion, 5x Mana Potion
 		container = {{2394, 1}, {2428, 1}, {2789, 25}, {5710, 1}, {7588, 20}, {18559, 1}, {7589, 5}}
 	}
