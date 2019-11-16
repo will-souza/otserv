@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
+	<!-- Recompensa por lvl -->
+	<event type="advance" name="Recompensa" script="recompensa.lua"/>
 
 	<!-- Adventurers Guild -->
 	<event type="kill" name="theGreatDragonHuntKill" script="quests/adventurers guild/the great dragon hunt.lua"/>
