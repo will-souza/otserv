@@ -9,7 +9,8 @@ player:getPosition():sendMagicEffect(3)
 player:sendTextMessage(MESSAGE_INFO_DESCR, "You already have this mount.")
 end
 if not player:hasOutfit(136) then
-player:addOutfitAddon(136)
+player:addOutfitAddon(136, 1)
+player:addOutfitAddon(136, 2)
 player:getPosition():sendMagicEffect(15)
 doCreatureSay(cid, "You received Full Citizen Outfit.", TALKTYPE_ORANGE_1)
 else
