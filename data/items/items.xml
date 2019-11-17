@@ -37074,7 +37074,7 @@
 		<attribute key="slotType" value="ammo" />
 		<attribute key="attack" value="78" />
 		<attribute key="decayTo" value="0" />
-		<attribute key="duration" value="3600" />
+		<attribute key="duration" value="36000" />
 		<attribute key="showduration" value="1" />
 		<attribute key="weaponType" value="ammunition" />
 		<attribute key="ammoType" value="bolt" />
@@ -37088,7 +37088,7 @@
 		<attribute key="slotType" value="ammo" />
 		<attribute key="attack" value="37" />
 		<attribute key="decayTo" value="0" />
-		<attribute key="duration" value="3600" />
+		<attribute key="duration" value="36000" />
 		<attribute key="showduration" value="1" />
 		<attribute key="weaponType" value="ammunition" />
 		<attribute key="ammoType" value="arrow" />
@@ -37106,7 +37106,7 @@
 		<attribute key="skillcriticaldamage" value="50" />
 		<attribute key="decayTo" value="0" />
 		<attribute key="magiclevelpoints" value="2" />
-		<attribute key="duration" value="900" />
+		<attribute key="duration" value="9000" />
 		<attribute key="stopduration" value="0" />
 		<attribute key="showduration" value="1" />
 	</item>
