@@ -2,7 +2,7 @@
 <creaturescripts>
 	<!-- Dolls -->
 	<!-- <event type="mo﻿dalwindow" name="modalAD﻿" script="addondoll.lua"/> -->
-    <!-- <event type="mo﻿dalwindow" name="modalMD" script="mountdoll.lua"/> -->
+    <event type="mo﻿dalwindow" name="addons-montarias" script="addons-montarias.lua"/>
 	<!-- Recompensa por lvl -->
 	<event type="advance" name="onadvance_reward" script="onadvance_reward.lua"/>
 	<event type="login" name="onadv_register" script="onadvance_reward.lua"/>
