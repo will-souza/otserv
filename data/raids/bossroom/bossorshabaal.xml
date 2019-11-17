@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="Um portal maligno irá se abrir na Boss Room em alguns minutos" />
+	<announce delay="5000" type="Event" message="Orshabaal's minions are working on his return to the World. Run to Boss Room, heroes." />
+	<announce delay="10000" type="Event" message="Orshabaal is about to make his way into the mortal realm." />
+	<announce delay="15000" type="Event" message="Orshabaal has been summoned from hell to plague the lands of mortals once again." />
+
+	<!--Single Spawns-->
+	<singlespawn delay="5000" name="Fire Elemental" x="32202" y="32181" z="12"/>
+	<singlespawn delay="5000" name="Demon" x="32201" y="32180" z="12"/>
+	<singlespawn delay="5000" name="Fire Elemental" x="32201" y="32182" z="12"/>
+	<singlespawn delay="5000" name="Demon" x="32200" y="32180" z="12"/>
+	<singlespawn delay="5000" name="Fire Elemental" x="32207" y="32192" z="12"/>
+	<singlespawn delay="5000" name="Demon" x="32207" y="32193" z="12"/>
+	<singlespawn delay="5000" name="Demon" x="32206" y="32194" z="12"/>
+	<singlespawn delay="5000" name="Fire Elemental" x="32205" y="32192" z="12"/>
+	<singlespawn delay="5000" name="Demon" x="32220" y="32179" z="12"/>
+	<singlespawn delay="5000" name="Demon" x="32220" y="32178" z="12"/>
+	<singlespawn delay="5000" name="Fire Elemental" x="32220" y="32180" z="12"/>
+	<singlespawn delay="5000" name="Demon" x="32219" y="32179" z="12"/>
+
+	<singlespawn delay="10000" name="Demon" x="32202" y="32181" z="12"/>
+	<singlespawn delay="10000" name="Fire Elemental" x="32201" y="32180" z="12"/>
+	<singlespawn delay="10000" name="Demon" x="32201" y="32182" z="12"/>
+	<singlespawn delay="10000" name="Fire Elemental" x="32200" y="32180" z="12"/>
+	<singlespawn delay="10000" name="Demon" x="32207" y="32192" z="12"/>
+	<singlespawn delay="10000" name="Fire Elemental" x="32207" y="32193" z="12"/>
+	<singlespawn delay="10000" name="Demon" x="32206" y="32194" z="12"/>
+	<singlespawn delay="10000" name="Fire Elemental" x="32205" y="32192" z="12"/>
+	<singlespawn delay="10000" name="Demon" x="32220" y="32179" z="12"/>
+	<singlespawn delay="10000" name="Demon" x="32220" y="32178" z="12"/>
+	<singlespawn delay="10000" name="Fire Elemental" x="32220" y="32180" z="12"/>
+	<singlespawn delay="10000" name="Demon" x="32219" y="32179" z="12"/>
+
+	<singlespawn delay="20000" name="Orshabaal" x="33538" y="32381" z="12"/>
+</raid>

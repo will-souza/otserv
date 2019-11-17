@@ -2,7 +2,7 @@ local raids = {
 	-- Weekly
 	--Segunda-Feira
 	['Monday'] = {
-		['06:00'] = {raidName = 'RatsThais'},
+		['06:00'] = {raidName = 'bossfalcon'},
 	},
 
 	--Terça-Feira
@@ -33,6 +33,7 @@ local raids = {
 	--Domingo
 	['Friday'] = {
 		['15:00'] = {raidName = 'Midnight Panther'}
+		['10:00'] = {raidName = 'BossGaz'}
 	},
 
 	-- By date (Day/Month)

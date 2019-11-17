@@ -516,7 +516,7 @@
 	<house name="Sunset Homes, Flat 21" houseid="1938" entryx="32333" entryy="32232" entryz="5" rent="520" townid="2" size="10" />
 	<house name="Harbour Place 1 (Shop)" houseid="1939" entryx="32336" entryy="32222" entryz="7" rent="1100" townid="2" size="81" />
 	<house name="Harbour Place 2 (Shop)" houseid="1940" entryx="32336" entryy="32210" entryz="7" rent="1300" townid="2" size="19" />
-	<house name="Warriors Guildhall" houseid="1941" entryx="32348" entryy="32213" entryz="7" rent="14725" townid="2" size="256" />
+	<house name="Warriors Guildhall" houseid="1941" entryx="32348" entryy="32213" entryz="7" rent="14725" townid="2" size="260" />
 	<house name="Farm Lane, 1st floor (Shop)" houseid="1942" entryx="32382" entryy="32232" entryz="7" rent="945" townid="2" size="15" />
 	<house name="Farm Lane, Basement (Shop)" houseid="1943" entryx="32382" entryy="32231" entryz="8" rent="945" townid="2" size="15" />
 	<house name="Main Street 9, 1st floor (Shop)" houseid="1944" entryx="32377" entryy="32224" entryz="7" rent="1440" townid="2" size="25" />
@@ -1043,6 +1043,10 @@
 	<house name="Tunnel Gardens 10" houseid="2594" entryx="32606" entryy="31924" entryz="11" rent="3000" townid="3" size="10" />
 	<house name="Tunnel Gardens 11" houseid="2595" entryx="32607" entryy="31924" entryz="12" rent="3000" townid="3" size="11" />
 	<house name="Tunnel Gardens 12" houseid="2596" entryx="32603" entryy="31924" entryz="12" rent="3000" townid="3" size="11" />
-	<house name="DP House 01" houseid="2612" entryx="32360" entryy="32217" entryz="7" rent="3000" townid="2" size="77" />
+	<house name="Depot Shop 01" houseid="2612" entryx="32360" entryy="32217" entryz="7" rent="3000" townid="2" size="77" />
 	<house name="Cais House Thais" houseid="2613" entryx="32331" entryy="32208" entryz="7" rent="3000" townid="2" size="82" />
+	<house name="Mage Shop House" houseid="2614" entryx="32397" entryy="32216" entryz="7" rent="3000" townid="2" size="61" />
+	<house name="Depot Shop 02" houseid="2615" entryx="32349" entryy="32249" entryz="7" rent="3000" townid="2" size="88" />
+	<house name="Depot House 03" houseid="2616" entryx="32345" entryy="32231" entryz="7" rent="0" townid="2" size="82" />
+	<house name="Depot House 04" houseid="2617" entryx="32350" entryy="32231" entryz="7" rent="3000" townid="2" size="101" />
 </houses>

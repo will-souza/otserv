@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <raids>
+	<raid name="BossGaz" file="bossroom/bossgazharagoth.xml" interval2="1440" margin="160" />
+	<raid name="BossFerumbras" file="bossroom/bossferumbras.xml" interval2="1440" margin="160" />
+	<raid name="BossOrshabaal" file="bossroom/bossorshabaal.xml" interval2="1440" margin="160" />
+	<raid name="BossUndead" file="bossroom/bossundead.xml" interval2="1440" margin="160" />
+	<raid name="BossFalcon" file="bossroom/bossfalcon.xml" interval2="1440" margin="160" />
+
 	<!-- Raids Ab'Dendriel -->
 	<raid name="Badger" file="abdendriel/badger.xml" interval2="500" margin="60" />
 	<raid name="WarWolf" file="abdendriel/warwolf.xml" interval2="500" margin="30" />

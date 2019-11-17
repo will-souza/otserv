@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<!--Announcements-->
+	<announce delay="1000" type="Event" message="Um portal maligno irá se abrir na Boss Room em alguns minutos" />
+	<announce delay="5000" type="Event" message="O Rei Tibianos pede o apoio de todos os para combater esta invasão.!" />
+	<announce delay="10000" type="Event" message="The dreaded Gaz'Haragoth is invading the land from prison." />
+	<announce delay="15000" type="Event" message="Leave now mortals, beware Gaz'Haragoth." />
+
+	<!--Single Spawns-->
+	<singlespawn delay="5000" name="Choking Fear" x="32202" y="32181" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32201" y="32180" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32201" y="32182" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32200" y="32180" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32207" y="32192" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32207" y="32193" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32206" y="32194" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32205" y="32192" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32220" y="32179" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32220" y="32178" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32220" y="32180" z="12"/>
+	<singlespawn delay="5000" name="Choking Fear" x="32219" y="32179" z="12"/>
+
+	<singlespawn delay="10000" name="Choking Fear" x="32202" y="32181" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32201" y="32180" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32201" y="32182" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32200" y="32180" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32207" y="32192" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32207" y="32193" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32206" y="32194" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32205" y="32192" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32220" y="32179" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32220" y="32178" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32220" y="32180" z="12"/>
+	<singlespawn delay="10000" name="Choking Fear" x="32219" y="32179" z="12"/>
+
+	<singlespawn delay="20000" name="Gaz'Haragoth" x="33538" y="32381" z="12"/>
+</raid>
