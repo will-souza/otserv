@@ -49,14 +49,14 @@ function onModalWindow﻿(player, modalWindowId, buttonId, choiceId)
 	
     if modalWindowId == 1000 then
         if buttonId﻿ == 100 then
-			if player:getItemCount(8982) == 0 then
+			if player:getItemCount(24317) == 0 then
 				player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You must have a Addon Doll in your backpack!")
 				return false
 			end
             if choiceId == 0 then
                 return false
             end
-            player:removeItem(8982, 1)
+            player:removeItem(24317, 1)
             if player:getSex() == 0 then
                     player:addOutfitAddon(outfits[choiceId].female, 3)
                 else
@@ -67,11 +67,3 @@ function onModalWindow﻿(player, modalWindowId, buttonId, choiceId)
     end
     
 end
-for storage, mount in pairs(mounts) do
-            if player:getStorageValue(storage) > 0 then
-                player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
-                player:addMount(mount)
-                player:sendTextMessage(MESSAGE_INFO_DESCR, "Sua Mount foi adicionado!")
-                player:setStorageValue(storage, 0)
-            end
-        end 
