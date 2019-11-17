@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <raid>
 	<!--Announcements-->
-	<announce delay="1000" type="Event" message="Um portal maligno irá se abrir na Boss Room em alguns minutos" />
+	<announce delay="1000" type="Event" message="Um portal maligno ira se abrir na Boss Room em alguns minutos" />
 	<announce delay="5000" type="Event" message="Ferumbras return is at hand. The Edron Academy calls for Heroes to fight that evil!" />
 	<announce delay="10000" type="Event" message="Os demons ja invadiram a Boss Room" />
 	<announce delay="15000" type="Event" message="Ferumbras has returned to his citadel once more. Stop him before its too late." />
@@ -33,5 +33,5 @@
 	<singlespawn delay="10000" name="Fire Elemental" x="32220" y="32180" z="12"/>
 	<singlespawn delay="10000" name="Demon" x="32219" y="32179" z="12"/>
 
-	<singlespawn delay="20000" name="Ferumbras" x="33538" y="32381" z="12"/>
+	<singlespawn delay="20000" name="Ferumbras" x="32211" y="32194" z="12"/>
 </raid>

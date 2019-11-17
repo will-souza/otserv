@@ -4912,17 +4912,29 @@ void Player::onDeEquipImbueItem(Imbuement* imbuement)
 
 	return;
 }
+<<<<<<< HEAD
 void Player::addItemToAutoLoot(uint16_t itemId)
+=======
+void Player::addAutoLootItem(uint16_t itemId)
+>>>>>>> 6a605d88ded5dcaa4d4ee91cdcf5aebf7198e6eb
 {
     autoLootList.insert(itemId);
 }
 
+<<<<<<< HEAD
 void Player::removeItemFromAutoLoot(uint16_t itemId)
+=======
+void Player::removeAutoLootItem(uint16_t itemId)
+>>>>>>> 6a605d88ded5dcaa4d4ee91cdcf5aebf7198e6eb
 {
     autoLootList.erase(itemId);
 }
 
+<<<<<<< HEAD
 bool Player::getItemFromAutoLoot(const uint16_t itemId)
+=======
+bool Player::getAutoLootItem(const uint16_t itemId)
+>>>>>>> 6a605d88ded5dcaa4d4ee91cdcf5aebf7198e6eb
 {
     return autoLootList.find(itemId) != autoLootList.end();
 }

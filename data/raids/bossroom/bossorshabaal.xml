@@ -33,5 +33,5 @@
 	<singlespawn delay="10000" name="Fire Elemental" x="32220" y="32180" z="12"/>
 	<singlespawn delay="10000" name="Demon" x="32219" y="32179" z="12"/>
 
-	<singlespawn delay="20000" name="Orshabaal" x="33538" y="32381" z="12"/>
+	<singlespawn delay="20000" name="Orshabaal" x="32211" y="32194" z="12"/>
 </raid>
