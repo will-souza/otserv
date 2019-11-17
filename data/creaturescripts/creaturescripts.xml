@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
+	<!-- Dolls -->
+	<event type="mo﻿dalwindow" name="modalAD﻿" script="addondoll.lua"/>
+    <event type="mo﻿dalwindow" name="modalMD" script="mountdoll.lua"/>
 	<!-- Recompensa por lvl -->
 	<event type="advance" name="onadvance_reward" script="onadvance_reward.lua"/>
 	<event type="login" name="onadv_register" script="onadvance_reward.lua"/>

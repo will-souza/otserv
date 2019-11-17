@@ -35594,9 +35594,9 @@
 		<attribute key="weight" value="1508" />
 		<attribute key="description" value="Souvenir from Thais Museum." />
 	</item>
-	<item id="26339" name="Imortus">
+	<item id="26339" name="Stamina Doll">
 		<attribute key="weight" value="4690" />
-		<attribute key="description" value="Souvenir from Thais Museum." />
+		<attribute key="description" value="Use para encher sua stamina." />
 	</item>
 	<item id="26340" article="a" name="crackling egg">
 		<attribute key="weight" value="850" />
@@ -39828,9 +39828,9 @@
 		<attribute key="description" value="Contrary to popular belief the fennec does not use his ears, which are the largest amongst foxes, to fly, soar or stabilise his balance. They mainly serve to dissipate heat."/>
 		<attribute key="wrapableTo" value="26054" />
 	</item>
-	<item id="32401" article="a" name="Citizen Doll" >
+	<item id="32401" article="a" name="Addon Doll" >
 		<attribute key="weight" value="2200" />
-		<attribute key="description" value="This doll carries the story of all Tibians in their legendary citizen outfit. Awarded by TibiaTV.com.br." />
+		<attribute key="description" value="Escolha uma addon full. Nem todas estão disponiveis." />
 	</item>
 	<item id="32402" article="the" name="True Book of Death" >
 		<attribute key="weight" value="1300" />
