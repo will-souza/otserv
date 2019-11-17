@@ -93,12 +93,3 @@ function onModalWindow(player, modalWindowId, buttonId, choiceId)
         end
     end
 end
-for storage, addon in pairs(addons) do
-            if player:getStorageValue(storage) > 0 then
-                player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
-                player:addOutfitAddon(addon[1], 3)
-                player:addOutfitAddon(addon[2], 3)
-                player:sendTextMessage(MESSAGE_INFO_DESCR, "Seu Addon full foi adicionado!")
-                player:setStorageValue(storage, 0)
-            end
-        end

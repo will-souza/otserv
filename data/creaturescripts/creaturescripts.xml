@@ -2,7 +2,6 @@
 <creaturescripts>
 	<!-- Recompensa por lvl -->
 	<event type="advance" name="onadvance_reward" script="onadvance_reward.lua"/>
-	<event type="login" name="onadv_register" script="onadvance_reward.lua"/>
 
 	<!-- Adventurers Guild -->
 	<event type="kill" name="theGreatDragonHuntKill" script="quests/adventurers guild/the great dragon hunt.lua"/>
