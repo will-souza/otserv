@@ -2587,6 +2587,10 @@ void LuaScriptInterface::registerFunctions()
 	registerMethod("Player", "hasChaseMode", LuaScriptInterface::luaPlayerHasChaseMode);
 	registerMethod("Player", "hasSecureMode", LuaScriptInterface::luaPlayerHasSecureMode);
 	registerMethod("Player", "getFightMode", LuaScriptInterface::luaPlayerGetFightMode);
+	registerMethod("Player", "addItemToAutoLoot", LuaScriptInterface::luaPlayerAddItemToAutoLoot);
+	registerMethod("Player", "removeItemFromAutoLoot", LuaScriptInterface::luaPlayerRemoveItemFromAutoLoot);
+	registerMethod("Player", "getItemFromAutoLoot", LuaScriptInterface::luaPlayerGetItemFromAutoLoot);
+	registerMethod("Player", "getAutoLootList", LuaScriptInterface::luaPlayerGetAutoLootList);
 
 	registerMethod("Player", "getBaseXpGain", LuaScriptInterface::luaPlayerGetBaseXpGain);
 	registerMethod("Player", "setBaseXpGain", LuaScriptInterface::luaPlayerSetBaseXpGain);

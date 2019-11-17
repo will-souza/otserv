@@ -414,8 +414,24 @@ ReturnValue Actions::internalUseItem(Player* player, const Position& pos, uint8_
 				return RETURNVALUE_YOUARENOTTHEOWNER;
 			}
 		} else if (corpseOwner != 0 && !player->canOpenCorpse(corpseOwner)) {
-			return RETURNVALUE_YOUARENOTTHEOWNER;
+	return RETURNVALUE_YOUARENOTTHEOWNER;
+} else﻿ {
+	if (player->canOpenCorpse(corpseOwner) && player->autoLootList.size() != 0) {
+		if (player->getCapacity() > 100 * 100) { //Minimum of Capacity for autoloot works. (100 CAP)
+			for (Item* item : container->getItemList()) {
+				if (player->getItemFromAutoLoot(item->getID())) {
+					std::ostringstream msgAutoLoot;
+					msgAutoLoot << "You looted a " << item->getItemCount() << "x " << item->getName() << ".";
+					g_game.internalMoveItem(container, player, CONST_SLOT_WHEREEVER, item, item->getItemCount(), nullptr);
+					player->sendTextMessage(MESSAGE_INFO_DESCR, msgAutoLoot.str());
+				}
+			}
+		} else {
+			player->sendTextMessage(MESSAGE_INFO_DESCR, "Sorry, you don't have enough capacity to use auto loot, so it has been disabled. (100+ capacity is required)");
 		}
+	}
+}
+
 
 		//open/close container
 		int32_t oldContainerId = player->getContainerID(openContainer);

@@ -1055,6 +1055,11 @@ class LuaScriptInterface
 		static int luaPlayerHasChaseMode(lua_State* L);
 		static int luaPlayerHasSecureMode(lua_State* L);
 		static int luaPlayerGetFightMode(lua_State* L);
+		static int luaPlayerAddItemToAutoLoot(lua_State* L);
+		static int luaPlayerRemoveItemFromAutoLoot(lua_State* L);
+		static int luaPlayerGetItemFromAutoLoot(lua_State* L);
+		static int luaPlayerGetAutoLootList(lua_State* L);
+
 
 		static int luaPlayerGetBaseXpGain(lua_State *L);
 		static int luaPlayerSetBaseXpGain(lua_State *L);

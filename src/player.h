@@ -1321,6 +1321,10 @@ class Player final : public Creature, public Cylinder
 		void learnInstantSpell(const std::string& spellName);
 		void forgetInstantSpell(const std::string& spellName);
 		bool hasLearnedInstantSpell(const std::string& spellName) const;
+		void addItemToAutoLoot(uint16_t itemId);
+		void removeItemFromAutoLoot(uint16_t﻿ itemId);
+		bool getItemFromAutoLoot(uint16_t itemId);
+
 
 		uint16_t getBaseXpGain() const {
 			return baseXpGain;
@@ -1458,6 +1462,7 @@ class Player final : public Creature, public Cylinder
 		std::unordered_set<uint32_t> attackedSet;
 
 		std::unordered_set<uint32_t> VIPList;
+		std::set<uint32_t﻿> autoLootList;
 
 		std::map<uint8_t, OpenContainer> openContainers;
 		std::map<uint32_t, DepotLocker*> depotLockerMap;
