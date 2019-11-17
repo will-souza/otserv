@@ -29,8 +29,7 @@ function onStepIn(creature, item, position, fromPosition)
 		position:sendMagicEffect(teleport.effect)
 		player:teleportTo(teleport.newPos)
 		player:getPosition():sendMagicEffect(CONST_ME_TELEPORT)
-	end
-	else
+		else
 		if item.itemid == 11796 then
 			player:teleportTo(fromPosition)
 			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You don\'t have the permission to use this portal.")
