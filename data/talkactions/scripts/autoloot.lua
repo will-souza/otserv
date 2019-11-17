@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 local talk =﻿ TalkAction("!autoloot")
 
 function talk.onSay(player, words, param)
@@ -83,4 +82,3 @@ function onSay(player, words, param)
     player:sendTextMessage(MESSAGE_INFO_DESCR, list:sub(1, -3))
     return false
 end
->>>>>>> 6a605d88ded5dcaa4d4ee91cdcf5aebf7198e6eb
