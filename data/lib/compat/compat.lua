@@ -1314,3 +1314,8 @@ return name
 end
 return 0
 end
+--AutoLoot written by Psychonaut#4421
+function getPlayerAutoLootItem(cid, itemId) local p = Player(cid) return p ~= nil and p:getAutoLootItem(itemId) or false end
+function getPlayerAutoLootList(cid) local p = Player(cid) return p ~= nil and p:getAutoLootList() or false end
+function removePlayerAutoLootItem(cid, itemId) local p = Player(cid) return p ~= nil and p:removeAutoLootItem(itemId) or false end
+function addPlayerAutoLootItem(cid, itemId) local p = Player(cid) return p ~= nil and p:addAutoLootItem(itemId) or false end

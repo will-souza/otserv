@@ -10,6 +10,10 @@
 	<talkaction words="!bless" script="bless.lua"/>	
 	<talkaction words="!aol" script="aol.lua"/>	
     <talkaction words="!pvpbless" script="pvpbless.lua"/>
+    <talkaction words="!autoloot" script="autoloot.lua" />
+	<talkaction words="!add" separator=" " script="addautoloot.lua" />
+	<talkaction words="!remove" separator=" " script="remautoloot.lua" />
+
 	
 	<!-- Anti-Entrosa -->
 	<!-- <talkaction words="/war" separator=" " script="warPrivate_talkactions.lua" /> -->

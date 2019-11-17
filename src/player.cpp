@@ -4912,3 +4912,17 @@ void Player::onDeEquipImbueItem(Imbuement* imbuement)
 
 	return;
 }
+void Player::addAutoLootItem(uint16_t itemId)
+{
+    autoLootList.insert(itemId);
+}
+
+void Player::removeAutoLootItem(uint16_t itemId)
+{
+    autoLootList.erase(itemId);
+}
+
+bool Player::getAutoLootItem(const uint16_t itemId)
+{
+    return autoLootList.find(itemId) != autoLootList.end();
+}
