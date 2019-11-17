@@ -7,15 +7,15 @@
 	<talkaction words="!uptime" script="uptime.lua" />
 	<talkaction words="!online" script="online.lua" />
 	<talkaction words="!serverinfo" script="serverinfo.lua" />
-	<talkaction words="!report" separator=" " script="adminreport.lua"/>
 	<talkaction words="!bless" script="bless.lua"/>	
-    	<talkaction words="!pvpbless" script="pvpbless.lua"/>
+	<talkaction words="!aol" script="aol.lua"/>	
+    <talkaction words="!pvpbless" script="pvpbless.lua"/>
 	
 	<!-- Anti-Entrosa -->
-	<talkaction words="/war" separator=" " script="warPrivate_talkactions.lua" />
+	<!-- <talkaction words="/war" separator=" " script="warPrivate_talkactions.lua" /> -->
 
 	<!-- Cast System -->
-	<talkaction words="!cast" separator=" " script="start_cast.lua" />
-	<talkaction words="!stopcast" script="stop_cast.lua" />
-	<talkaction words="!spectators" script="spectators.lua" />
+	<!-- <talkaction words="!cast" separator=" " script="start_cast.lua" /> -->
+	<!-- <talkaction words="!stopcast" script="stop_cast.lua" /> -->
+	<!-- <talkaction words="!spectators" script="spectators.lua" /> -->
 </talkactions>
