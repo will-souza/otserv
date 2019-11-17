@@ -65,4 +65,13 @@ function onModalWindow﻿(player, modalWindowId, buttonId, choiceId)
             player:getPosition():sendMagicEffect(CONST_ME_FIREWORK_YELLOW)
         end
     end
+    
 end
+for storage, mount in pairs(mounts) do
+            if player:getStorageValue(storage) > 0 then
+                player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
+                player:addMount(mount)
+                player:sendTextMessage(MESSAGE_INFO_DESCR, "Sua Mount foi adicionado!")
+                player:setStorageValue(storage, 0)
+            end
+        end 
