@@ -34663,78 +34663,99 @@
 		<attribute key="range" value="3" />
 		<attribute key="imbuingSlots" value="3" />
 	</item>
-	<item id="25919" article="a" name="blade of remedy">
-		<attribute key="description" value="It can only be wielded properly by players of level 100 or higher." />
-		<attribute key="defense" value="33" />
-		<attribute key="attack" value="50" />
+	<item id="25922" article="a" name="Epic Blade">
+		<attribute key="description" value="It can only be wielded properly by players of level 8 or higher." />
+		<attribute key="defense" value="36" />
+		<attribute key="skillcriticalchance" value="25" />
+		<attribute key="skillcriticaldamage" value="20" />
+		<attribute key="skillSword" value="4" />
+		<attribute key="skillShield" value="1" />
+		<attribute key="attack" value="60" />
 		<attribute key="weaponType" value="sword" />
 		<attribute key="weight" value="5000" />
-		<attribute key="imbuingSlots" value="3" />
 	</item>
-	<item id="25923" article="a" name="slayer of remedy">
-		<attribute key="description" value="It can only be wielded properly by players of level 100 or higher." />
-		<attribute key="defense" value="32" />
-		<attribute key="attack" value="52" />
-		<attribute key="weaponType" value="sword" />
+	<item id="25923" article="a" name="Epic Slayer">
+		<attribute key="description" value="It can only be wielded properly by players of level 8 or higher." />
+		<attribute key="defense" value="28" />
+		<attribute key="skillcriticalchance" value="25" />
+		<attribute key="skillcriticaldamage" value="20" />
+		<attribute key="skillSword" value="4" />
+		<attribute key="skillShield" value="1" />
+		<attribute key="attack" value="68" />
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="weight" value="7000" />
-		<attribute key="imbuingSlots" value="3" />
 	</item>
-	<item id="25927" article="an" name="axe of remedy">
-		<attribute key="description" value="It can only be wielded properly by players of level 100 or higher." />
-		<attribute key="defense" value="31" />
-		<attribute key="attack" value="51" />
+	<item id="25929" article="an" name="Epic Axe">
+		<attribute key="description" value="It can only be wielded properly by players of level 8 or higher." />
+		<attribute key="defense" value="36" />
+		<attribute key="skillcriticalchance" value="25" />
+		<attribute key="skillcriticaldamage" value="20" />
+		<attribute key="skillAxe" value="4" />
+		<attribute key="skillShield" value="1" />
+		<attribute key="attack" value="60" />
 		<attribute key="weaponType" value="axe" />
 		<attribute key="weight" value="5000" />
-		<attribute key="imbuingSlots" value="3" />
 	</item>
-	<item id="25931" article="a" name="chopper of remedy">
-		<attribute key="description" value="It can only be wielded properly by players of level 100 or higher." />
-		<attribute key="defense" value="32" />
-		<attribute key="attack" value="52" />
+	<item id="25934" article="a" name="Epic Chopper">
+		<attribute key="description" value="It can only be wielded properly by players of level 8 or higher." />
+		<attribute key="defense" value="28" />
+		<attribute key="skillcriticalchance" value="25" />
+		<attribute key="skillcriticaldamage" value="20" />
+		<attribute key="skillAxe" value="4" />
+		<attribute key="skillShield" value="1" />
+		<attribute key="attack" value="68" />
 		<attribute key="weaponType" value="axe" />
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="weight" value="7000" />
-		<attribute key="imbuingSlots" value="3" />
 	</item>
-	<item id="25935" article="a" name="mace of remedy">
-		<attribute key="description" value="It can only be wielded properly by players of level 100 or higher." />
-		<attribute key="defense" value="30" />
-		<attribute key="attack" value="50" />
+	<item id="25938" article="a" name="Epic Mace">
+		<attribute key="description" value="It can only be wielded properly by players of level 8 or higher." />
+		<attribute key="defense" value="36" />
+		<attribute key="skillcriticalchance" value="25" />
+		<attribute key="skillcriticaldamage" value="20" />
+		<attribute key="skillClub" value="4" />
+		<attribute key="skillShield" value="1" />
+		<attribute key="attack" value="60" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="weight" value="5000" />
-		<attribute key="imbuingSlots" value="3" />
 	</item>
-	<item id="25939" article="a" name="hammer of remedy">
-		<attribute key="description" value="It can only be wielded properly by players of level 100 or higher." />
-		<attribute key="defense" value="30" />
-		<attribute key="attack" value="53" />
+	<item id="25939" article="a" name="Epic Hammer">
+		<attribute key="description" value="It can only be wielded properly by players of level 8 or higher." />
+		<attribute key="defense" value="28" />
+		<attribute key="skillcriticalchance" value="25" />
+		<attribute key="skillcriticaldamage" value="20" />
+		<attribute key="skillAxe" value="4" />
+		<attribute key="skillShield" value="1" />
+		<attribute key="attack" value="68" />
 		<attribute key="weaponType" value="club" />
 		<attribute key="weight" value="7000" />
 		<attribute key="slotType" value="two-handed" />
-		<attribute key="imbuingSlots" value="3" />
 	</item>
-	<item id="25943" article="a" name="bow of remedy">
-		<attribute key="description" value="It can only be wielded properly by players of level 100 or higher." />
+	<item id="25946" article="a" name="Epic Bow">
+		<attribute key="description" value="It can only be wielded properly by players of level 8 or higher." />
 		<attribute key="weight" value="5500" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
+		<attribute key="skillDist" value="4" />
 		<attribute key="ammoType" value="arrow" />
-		<attribute key="range" value="6" />
-		<attribute key="hitChance" value="6" />
-		<attribute key="attack" value="6" />
-		<attribute key="imbuingSlots" value="3" />
+		<attribute key="skillcriticalchance" value="25" />
+		<attribute key="skillcriticaldamage" value="20" />
+		<attribute key="range" value="8" />
+		<attribute key="hitChance" value="8" />
+		<attribute key="attack" value="8" />
 	</item>
-	<item id="25947" article="a" name="crossbow of remedy">
-		<attribute key="description" value="It can only be wielded properly by players of level 100 or higher." />
-		<attribute key="weight" value="6500" />
+	<item id="25950" article="a" name="Epic Crossbow">
+		<attribute key="description" value="It can only be wielded properly by players of level 8 or higher." />
+		<attribute key="weight" value="5500" />
 		<attribute key="slotType" value="two-handed" />
 		<attribute key="weaponType" value="distance" />
+		<attribute key="skillDist" value="4" />
 		<attribute key="ammoType" value="bolt" />
-		<attribute key="range" value="5" />
-		<attribute key="hitChance" value="6" />
-		<attribute key="attack" value="6" />
-		<attribute key="imbuingSlots" value="3" />
+		<attribute key="skillcriticalchance" value="25" />
+		<attribute key="skillcriticaldamage" value="20" />
+		<attribute key="range" value="8" />
+		<attribute key="hitChance" value="8" />
+		<attribute key="attack" value="8" />
 	</item>
 	<item id="25951" article="a" name="wand of remedy">
 		<attribute key="description" value="It can only be wielded properly by sorcerers of level 100 or higher." />
