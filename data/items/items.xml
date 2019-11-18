@@ -16105,6 +16105,14 @@
 		<attribute key="defense" value="20" />
 		<attribute key="weaponType" value="shield" />
 	</item>
+	<item id="32592" article="a" name="Epic Bookworm Shield">
+		<attribute key="description" value="It shows your spells and can also shield against attacks when worn." />
+		<attribute key="weight" value="2560" />
+		<attribute key="magiclevelpoints" value="5" />
+		<attribute key="speed" value="20" />
+		<attribute key="defense" value="30" />
+		<attribute key="weaponType" value="shield" />
+	</item>
 	<item id="8904" article="a" name="spellscroll of prophecies">
 		<attribute key="description" value="It shows your spells and can also shield against attacks when worn." />
 		<attribute key="weight" value="2650" />
@@ -40524,10 +40532,6 @@
 		<attribute key="corpseType" value="blood" />
 	</item>
 	<item id="32591" article="an" name="old radio">
-		<attribute key="weight" value="1900" />
-		<attribute key="description" value="It does not wish to be disturbed. Awarded by TibiaLibrary.org." />
-	</item>
-	<item id="32592" article="a" name="bookworm doll">
 		<attribute key="weight" value="1900" />
 		<attribute key="description" value="It does not wish to be disturbed. Awarded by TibiaLibrary.org." />
 	</item>
