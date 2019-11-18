@@ -2352,11 +2352,11 @@
 	<movevent event="DeEquip" itemid="25926" slot="hand" function="onDeEquipItem" />
 
 	<!-- Epic Axe -->
-	<movevent event="Equip" itemid="25929" slot="hand" level="8" function="onEquipItem">
+	<movevent event="Equip" itemid="25930" slot="hand" level="8" function="onEquipItem">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" showInDescription="0" />
 	</movevent>
-	<movevent event="DeEquip" itemid="25929" slot="hand" function="onDeEquipItem" />
+	<movevent event="DeEquip" itemid="25930" slot="hand" function="onDeEquipItem" />
 
 	<!-- Epic Chopper -->
 	<movevent event="Equip" itemid="25934" slot="hand" level="8" function="onEquipItem">

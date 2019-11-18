@@ -34674,7 +34674,7 @@
 		<attribute key="weaponType" value="sword" />
 		<attribute key="weight" value="5000" />
 	</item>
-	<item id="25923" article="a" name="Epic Slayer">
+	<item id="25926" article="a" name="Epic Slayer">
 		<attribute key="description" value="It can only be wielded properly by players of level 8 or higher." />
 		<attribute key="defense" value="28" />
 		<attribute key="skillcriticalchance" value="25" />
@@ -34685,7 +34685,7 @@
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="weight" value="7000" />
 	</item>
-	<item id="25929" article="an" name="Epic Axe">
+	<item id="25930" article="an" name="Epic Axe">
 		<attribute key="description" value="It can only be wielded properly by players of level 8 or higher." />
 		<attribute key="defense" value="36" />
 		<attribute key="skillcriticalchance" value="25" />
