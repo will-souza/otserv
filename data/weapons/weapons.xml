@@ -129,7 +129,7 @@
 	<wand id="25887" level="100" mana="18" min="70" max="105" type="energy"> <!-- Wand of Mayhem -->
 		<vocation name="Sorcerer" />
 	</wand>
-	<wand id="25951" level="8" mana="18" min="100" max="135" type="energy"> <!-- Wand of Remedy -->
+	<wand id="25954" level="8" mana="18" min="100" max="135" type="energy"> <!-- Wand of Remedy -->
 		<vocation name="Sorcerer" />
 	</wand>
 	    <wand id="30692" level="200" mana="20" min="80" max="110" type="energy"> <!-- Wand of Destruction -->
