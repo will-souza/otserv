@@ -529,7 +529,7 @@ mapNpcs = {
     [529] = {name = "Billy", pos = {x=32050,y=32206,z=7}},
     [530] = {name = "Willie", pos = {x=32068,y=32204,z=7}},
     [531] = {name = "Obi", pos = {x=32109,y=32204,z=7}},
-    [532] = {name = "Frodo", pos = {x=32358,y=32209,z=7}},
+    [532] = {name = "Frodo", pos = {x=32356,y=32210,z=7}},
     [533] = {name = "Aruda", pos = {x=32368,y=32214,z=7}},
     [534] = {name = "Towncryer", pos = {x=32329,y=32216,z=7}},
     [535] = {name = "Cipfried", pos = {x=32097,y=32218,z=7}},
@@ -932,7 +932,7 @@ mapNpcs = {
     [933] = {name = "Maria", pos = {x=32347,y=32244,z=8}},
     [934] = {name = "Mateus", pos = {x=32357,y=32231,z=6}},
     [935] = {name = "Nah'bob", pos = {x=32377,y=32239,z=6}},
-    [936] = {name = "Yaman", pos = {x=32378,y=32243,z=6}},
+    [936] = {name = "Yaman", pos = {x=32361,y=32239,z=6}},
     [937] = {name = "TokenNPC", pos = {x=32372,y=32236,z=6}},
     [938] = {name = "CompraTudo", pos = {x=32359,y=32237,z=6}},
 }

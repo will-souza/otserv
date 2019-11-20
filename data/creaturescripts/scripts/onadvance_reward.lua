@@ -7,14 +7,14 @@ local table =
 
     [20] = {type = "item", id = {2160, 5}, msg = "Voce ganhou 5 crystal coins por alcancar o level 20!"},
     [100] = {type = "bank", id = {150000, 0}, msg = "Foi depositado em seu bank 150000 gold coints!"},
-    [100] = {type = "item", id = {2195, 2}, msg = "Voce ganhou uma boots of haste por alcancar o level 100!"},
+    [100] = {type = "item", id = {2195, 1}, msg = "Voce ganhou uma boots of haste por alcancar o level 100!"},
     [200] = {type = "addon", id = {136, 128}, msg = "Voce ganhou o addon citizen full por alcancar o level 200!"},
     [200] = {type = "bank", id = {300000, 0}, msg = "Foi depositado em seu bank 300000 gold coints!"},
     [300] = {type = "bank", id = {200000, 0}, msg = "Foi depositado em seu bank 200000 gold coints!"},
-    [300] = {type = "item", id = {20620, 2}, msg = "Voce ganhou 1 Zaoan chess box por alcancar o level 300!"},
-    [400] = {type = "item", id = {18511, 2}, msg = "Voce ganhou 1 Music box por alcancar o level 40!"},
+    [300] = {type = "item", id = {20620, 1}, msg = "Voce ganhou 1 Zaoan chess box por alcancar o level 300!"},
+    [400] = {type = "item", id = {18511, 1}, msg = "Voce ganhou 1 Music box por alcancar o level 40!"},
     [400] = {type = "bank", id = {200000, 0}, msg = "Foi depositado em seu bank 200000 gold coints!"},
-    [500] = {type = "item", id = {18511, 2}, msg = "Voce ganhou 1 Music box por alcancar o level 500!"},
+    [500] = {type = "item", id = {18511, 1}, msg = "Voce ganhou 1 Music box por alcancar o level 500!"},
     [500] = {type = "bank", id = {200000, 0}, msg = "Foi depositado em seu bank 200000 gold coints!"},
     [600] = {type = "mount", id = {1209, 0}, msg = "Voce ganhou a montaria Cerberus Champion!"},
 }

@@ -790,7 +790,8 @@
 	<!-- Amulets -->
 	<movevent event="Equip" itemid="30800" slot="necklace" level="100" function="onEquipItem" /> <!-- Foxtail Amulet -->
 	<movevent event="DeEquip" itemid="30800" slot="necklace" function="onDeEquipItem" />
-
+	<movevent event="Equip" itemid="10315" slot="necklace" level="100" function="onEquipItem" > <!-- Collar of Green Plasma ON -->
+	<movevent event="DeEquip" itemid="10315" slot="necklace" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="26183" slot="necklace" level="150" function="onEquipItem" > <!-- Collar of Green Plasma ON -->
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" showInDescription="0" />
@@ -2200,17 +2201,17 @@
 	</movevent>
 	<movevent event="DeEquip" itemid="25995" slot="hand" function="onDeEquipItem" />
 
-	<movevent event="Equip" itemid="25951" slot="hand" level="100" function="onEquipItem"> <!-- Wand of Remedy -->
+	<movevent event="Equip" itemid="25954" slot="hand" level="8" function="onEquipItem"> <!-- Wand of Remedy -->
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" showInDescription="0" />
 	</movevent>
-	<movevent event="DeEquip" itemid="25951" slot="hand" function="onDeEquipItem" />
+	<movevent event="DeEquip" itemid="25954" slot="hand" function="onDeEquipItem" />
 
-	<movevent event="Equip" itemid="25955" slot="hand" level="100" function="onEquipItem"> <!-- Rod of Remedy -->
+	<movevent event="Equip" itemid="25958" slot="hand" level="8" function="onEquipItem"> <!-- Rod of Remedy -->
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" showInDescription="0" />
 	</movevent>
-	<movevent event="DeEquip" itemid="25955" slot="hand" function="onDeEquipItem" />
+	<movevent event="DeEquip" itemid="25958" slot="hand" function="onDeEquipItem" />
 
 	<!-- blade of mayhem -->
 	<movevent event="Equip" itemid="25879" slot="hand" level="100" function="onEquipItem">
@@ -2745,7 +2746,7 @@
 	</movevent>
 	<movevent event="DeEquip" itemid="25946" slot="hand" function="onDeEquipItem" />
 
-	<movevent event="Equip" itemid="25950" slot="hand" level="100" function="onEquipItem"> <!-- Epic Crossbow -->
+	<movevent event="Equip" itemid="25950" slot="hand" level="8" function="onEquipItem"> <!-- Epic Crossbow -->
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" showInDescription="0" />
 	</movevent>
