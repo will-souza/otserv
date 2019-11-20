@@ -46,7 +46,7 @@
 	<wand id="25888" level="100" mana="18" min="70" max="105" type="ice"> <!-- Rod of Mayhem -->
 		<vocation name="Druid" />
 	</wand>
-	<wand id="25955" level="100" mana="18" min="70" max="105" type="ice"> <!-- Rod of Remedy -->
+	<wand id="25958" level="8" mana="18" min="100" max="135" type="ice"> <!-- Rod of Remedy -->
 		<vocation name="Druid" />
 	</wand>
 	 <wand id="30693" level="200" mana="20" min="80" max="110" type="ice"> <!-- Rod of destruction -->
@@ -129,7 +129,7 @@
 	<wand id="25887" level="100" mana="18" min="70" max="105" type="energy"> <!-- Wand of Mayhem -->
 		<vocation name="Sorcerer" />
 	</wand>
-	<wand id="25951" level="100" mana="18" min="70" max="105" type="energy"> <!-- Wand of Remedy -->
+	<wand id="25951" level="8" mana="18" min="100" max="135" type="energy"> <!-- Wand of Remedy -->
 		<vocation name="Sorcerer" />
 	</wand>
 	    <wand id="30692" level="200" mana="20" min="80" max="110" type="energy"> <!-- Wand of Destruction -->
@@ -258,7 +258,7 @@
 		<vocation name="Knight" />
 
 	</melee>
-	<melee id="25919" level="100" unproperly="1">
+	<melee id="25922" level="8" unproperly="1">
 		<vocation name="Knight" />
 
 	</melee>
@@ -270,7 +270,7 @@
 		<vocation name="Knight" />
 
 	</melee>
-	<melee id="25923" level="100" unproperly="1">
+	<melee id="25926" level="8" unproperly="1">
 		<vocation name="Knight" />
 
 	</melee>
@@ -282,7 +282,7 @@
 		<vocation name="Knight" />
 
 	</melee>
-	<melee id="25927" level="100" unproperly="1">
+	<melee id="25930" level="8" unproperly="1">
 		<vocation name="Knight" />
 
 	</melee>
@@ -294,7 +294,7 @@
 		<vocation name="Knight" />
 
 	</melee>
-	<melee id="25931" level="100" unproperly="1">
+	<melee id="25934" level="8" unproperly="1">
 		<vocation name="Knight" />
 
 	</melee>
@@ -318,7 +318,7 @@
 		<vocation name="Knight" />
 
 	</melee>
-	<melee id="25935" level="100" unproperly="1">
+	<melee id="25938" level="8" unproperly="1">
 		<vocation name="Knight" />
 
 	</melee>
