@@ -4,8 +4,8 @@ combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_CARNIPHILA)
 combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_SMALLEARTH)
 
 function onGetFormulaValues(player, level, maglevel)
-	local min = (level / 5) + (maglevel * 0.4) + 3
-	local max = (level / 5) + (maglevel * 0.7) + 5
+	local min = (level / 5) + (maglevel * 0.8) + 3
+	local max = (level / 5) + (maglevel * 1.4) + 5
 	return -min, -max
 end
 
