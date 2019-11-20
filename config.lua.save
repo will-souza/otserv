@@ -3,7 +3,7 @@
 worldType = "pvp"
 hotkeyAimbotEnabled = true
 protectionLevel = 100
-pzLocked = 60 * 1000
+pzLocked =  1 * 60 * 1000
 removeChargesFromRunes = false
 removeChargesFromPotions = true
 removeWeaponAmmunition = false
