@@ -790,8 +790,6 @@
 	<!-- Amulets -->
 	<movevent event="Equip" itemid="30800" slot="necklace" level="100" function="onEquipItem" /> <!-- Foxtail Amulet -->
 	<movevent event="DeEquip" itemid="30800" slot="necklace" function="onDeEquipItem" />
-	<movevent event="Equip" itemid="10315" slot="necklace" level="100" function="onEquipItem" > <!-- Collar of Green Plasma ON -->
-	<movevent event="DeEquip" itemid="10315" slot="necklace" function="onDeEquipItem" />
 	<movevent event="Equip" itemid="26183" slot="necklace" level="150" function="onEquipItem" > <!-- Collar of Green Plasma ON -->
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" showInDescription="0" />
