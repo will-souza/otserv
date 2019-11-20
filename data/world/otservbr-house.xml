@@ -498,7 +498,7 @@
 	<house name="Beach Home Apartments, Flat 13" houseid="1915" entryx="32314" entryy="32234" entryz="6" rent="880" townid="2" size="13" />
 	<house name="Beach Home Apartments, Flat 14" houseid="1916" entryx="32312" entryy="32234" entryz="6" rent="385" townid="2" size="4" />
 	<house name="Beach Home Apartments, Flat 15" houseid="1917" entryx="32309" entryy="32234" entryz="6" rent="385" townid="2" size="4" />
-	<house name="Thais Clanhall" houseid="1918" entryx="32326" entryy="32272" entryz="7" rent="8420" townid="2" size="153" />
+	<house name="Thais Clanhall" houseid="1918" entryx="32326" entryy="32272" entryz="7" rent="8420" townid="2" size="207" />
 	<house name="Harbour Street 4" houseid="1919" entryx="32332" entryy="32257" entryz="7" rent="935" townid="2" size="14" />
 	<house name="Thais Hostel" houseid="1920" entryx="32333" entryy="32255" entryz="6" rent="6980" townid="2" size="64" />
 	<house name="Lower Swamp Lane 1" houseid="1921" entryx="32356" entryy="32262" entryz="7" rent="4740" townid="2" size="58" />
@@ -514,7 +514,7 @@
 	<house name="Sunset Homes, Flat 23" houseid="1936" entryx="32334" entryy="32244" entryz="5" rent="860" townid="2" size="14" />
 	<house name="Sunset Homes, Flat 22" houseid="1937" entryx="32333" entryy="32237" entryz="5" rent="520" townid="2" size="10" />
 	<house name="Sunset Homes, Flat 21" houseid="1938" entryx="32333" entryy="32232" entryz="5" rent="520" townid="2" size="10" />
-	<house name="Harbour Place 1 (Shop)" houseid="1939" entryx="32336" entryy="32222" entryz="7" rent="1100" townid="2" size="80" />
+	<house name="Harbour Place 1 (Shop)" houseid="1939" entryx="32336" entryy="32224" entryz="7" rent="1100" townid="2" size="81" />
 	<house name="Harbour Place 2 (Shop)" houseid="1940" entryx="32336" entryy="32210" entryz="7" rent="1300" townid="2" size="19" />
 	<house name="Warriors Guildhall" houseid="1941" entryx="32348" entryy="32213" entryz="7" rent="14725" townid="2" size="268" />
 	<house name="Farm Lane, 1st floor (Shop)" houseid="1942" entryx="32382" entryy="32232" entryz="7" rent="945" townid="2" size="15" />
@@ -553,7 +553,7 @@
 	<house name="The City Wall 9" houseid="1975" entryx="32419" entryy="32247" entryz="7" rent="955" townid="2" size="14" />
 	<house name="Upper Swamp Lane 12" houseid="1976" entryx="32419" entryy="32256" entryz="7" rent="3800" townid="2" size="44" />
 	<house name="Upper Swamp Lane 10" houseid="1977" entryx="32412" entryy="32256" entryz="7" rent="2060" townid="2" size="24" />
-	<house name="Upper Swamp Lane 8" houseid="1978" entryx="32398" entryy="32256" entryz="7" rent="8120" townid="2" size="114" />
+	<house name="Upper Swamp Lane 8" houseid="1978" entryx="32398" entryy="32256" entryz="7" rent="8120" townid="2" size="115" />
 	<house name="Southern Thais Guildhall" houseid="1979" entryx="32401" entryy="32254" entryz="7" rent="22440" townid="2" size="283" />
 	<house name="Alai Flats, Flat 04" houseid="1980" entryx="32386" entryy="32261" entryz="7" rent="765" townid="2" size="14" />
 	<house name="Alai Flats, Flat 05" houseid="1981" entryx="32386" entryy="32268" entryz="7" rent="1225" townid="2" size="20" />
@@ -1043,14 +1043,14 @@
 	<house name="Tunnel Gardens 10" houseid="2594" entryx="32606" entryy="31924" entryz="11" rent="3000" townid="3" size="10" />
 	<house name="Tunnel Gardens 11" houseid="2595" entryx="32607" entryy="31924" entryz="12" rent="3000" townid="3" size="11" />
 	<house name="Tunnel Gardens 12" houseid="2596" entryx="32603" entryy="31924" entryz="12" rent="3000" townid="3" size="11" />
-	<house name="Depot Shop 01" houseid="2612" entryx="32360" entryy="32217" entryz="7" rent="3000" townid="2" size="75" />
+	<house name="Depot Shop 01" houseid="2612" entryx="32360" entryy="32217" entryz="7" rent="3000" townid="2" size="74" />
 	<house name="Cais House Thais" houseid="2613" entryx="32331" entryy="32208" entryz="7" rent="3000" townid="2" size="85" />
 	<house name="Mage Shop House" houseid="2614" entryx="32397" entryy="32216" entryz="7" rent="3000" townid="2" size="61" />
 	<house name="Depot Shop 02" houseid="2615" entryx="32349" entryy="32249" entryz="7" rent="3000" townid="2" size="88" />
 	<house name="Depot House 03" houseid="2616" entryx="32345" entryy="32231" entryz="7" rent="0" townid="2" size="82" />
 	<house name="Depot House 04" houseid="2617" entryx="32350" entryy="32231" entryz="7" rent="3000" townid="2" size="100" />
 	<house name="Depot Guildhall 01" houseid="2619" entryx="32349" entryy="32231" entryz="5" rent="30000" townid="2" size="220" />
-	<house name="Temple House 01" houseid="2620" entryx="32363" entryy="32250" entryz="7" rent="3000" townid="2" size="73" />
-	<house name="Temple House 02" houseid="2621" entryx="32376" entryy="32250" entryz="7" rent="3000" townid="2" size="73" />
-	<!-- <house name="Farm Lane House" houseid="2622" entryx="32389" entryy="32238" entryz="7" rent="3000" townid="2" size="59" /> -->
+	<house name="Temple House 01" houseid="2620" entryx="32363" entryy="32250" entryz="7" rent="3000" townid="2" size="72" />
+	<house name="Temple House 02" houseid="2621" entryx="32376" entryy="32250" entryz="7" rent="3000" townid="2" size="72" />
+	<house name="" houseid="2622" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="59" />
 </houses>
