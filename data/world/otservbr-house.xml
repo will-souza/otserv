@@ -1052,5 +1052,5 @@
 	<house name="Depot Guildhall 01" houseid="2619" entryx="32349" entryy="32231" entryz="5" rent="30000" townid="2" size="220" />
 	<house name="Temple House 01" houseid="2620" entryx="32363" entryy="32250" entryz="7" rent="3000" townid="2" size="72" />
 	<house name="Temple House 02" houseid="2621" entryx="32376" entryy="32250" entryz="7" rent="3000" townid="2" size="72" />
-	<house name="" houseid="2622" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="59" />
+	<house name="Farm Lane House" houseid="2622" entryx="32389" entryy="32238" entryz="7" rent="3" townid="2" size="59" />
 </houses>
