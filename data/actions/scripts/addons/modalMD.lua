@@ -106,17 +106,15 @@ local mounts = {
 end
     window:addButton(101, "Cancel")
     window:setDefaultEscapeButton(101)
-   if choiceId == 0 then
-                return false
-    end
-    player:removeItem(24317, 1)
-    player:addMount(mounts[choiceId].ID)
-    player:getPosition(﻿):sendMagicEffect(CONST_ME_FIREWORK_YELLOW)
-    -- for i = 1, #mounts do
-    --             local o = mounts[i].name
-    --             if not player:hasMount(mounts[i].ID) then
-    --                     window:addChoice(i, o)
-    --             end
+   
+    for i = 1, #mounts do
+                local o = mounts[i].name
+                if not player:hasMount(mounts[i].ID) then
+                    player:removeItem(24317, 1)
+                    player:addMount(mounts[choiceId].ID)
+                    player:getPosition(﻿):sendMagicEffect(CONST_ME_FIREWORK_YELLOW)
+                        window:addChoice(i, o)
+                end
     end
        
         if window:getChoiceCount() == 0 then

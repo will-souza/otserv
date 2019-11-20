@@ -76,6 +76,13 @@ end
                     o = o .. "man"
                 end
             end
+            player:removeItem(32401, 1)
+            if player:getSex() == 0 then
+                    player:addOutfitAddon(outfits[choiceId].female, 3)
+                else
+                    player:addOutfitAddon(outfits[choiceId].male, 3)
+            end
+            player:getPosition():sendMagicEffect(CONST_ME_FIREWORK_YELLOW)
             window:addChoice(i, o)
         end
     end
