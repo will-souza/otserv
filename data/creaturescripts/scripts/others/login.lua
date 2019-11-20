@@ -32,7 +32,6 @@ function onLogin(player)
 		if loginStr ~= "" then
 			player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
 		loginStr = string.format('Your last visit was on %s.', os.date('%a %b %d %X %Y', player:getLastLoginSaved()))
-	end
             --Quests Liberadas
     --In Service of Yalahar 
         player:setStorageValue(Storage.InServiceofYalahar.Questline, 5)
@@ -76,6 +75,7 @@ function onLogin(player)
         player:setStorageValue(Storage.SearoutesAroundYalahar.Thais, 1)
         player:setStorageValue(Storage.SearoutesAroundYalahar.LibertyBay, 1)
         player:setStorageValue(Storage.SearoutesAroundYalahar.Carlin, 1)
+    end
 
     player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
 
