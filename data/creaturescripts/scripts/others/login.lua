@@ -31,7 +31,9 @@ function onLogin(player)
 	else
 		if loginStr ~= "" then
 			player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
-			--Quests Liberadas
+		loginStr = string.format('Your last visit was on %s.', os.date('%a %b %d %X %Y', player:getLastLoginSaved()))
+	end
+            --Quests Liberadas
     --In Service of Yalahar 
         player:setStorageValue(Storage.InServiceofYalahar.Questline, 5)
         player:setStorageValue(Storage.InServiceofYalahar.Mission01, 6)
@@ -74,11 +76,6 @@ function onLogin(player)
         player:setStorageValue(Storage.SearoutesAroundYalahar.Thais, 1)
         player:setStorageValue(Storage.SearoutesAroundYalahar.LibertyBay, 1)
         player:setStorageValue(Storage.SearoutesAroundYalahar.Carlin, 1)
-				
-		end
-
-		loginStr = string.format('Your last visit was on %s.', os.date('%a %b %d %X %Y', player:getLastLoginSaved()))
-	end
 
     player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
 
@@ -205,7 +202,7 @@ function onLogin(player)
 	if player:getStorageValue(Storage.isTraining) == 1 then -- redefinir storage de exercise weapon
 		player:setStorageValue(Storage.isTraining,0)
 	end
-local quests = {"What a Foolish", "War Against The Hive", "Unnatural Selection", "Tibia Tales", "The White Raven Monastery", "The Thieves Guild", "The Rookie Guard", "The Repenters", "The Queen of the Banshees", "The Ice Islands", "The Gravedigger of Drefia", "The Desert Dungeon", "The Beginning", "The Ancient Tombs", "Spike Tasks", "Secret Service", "Sea of Light", "Hot Cuisine", "Friends and Traders", "Elemental Spheres", "Adventurers Guild", "A Father's Burden", "The Shattered Isles", "The Postman Missions", "Bigfoot's Burden", "The Hidden City Of Beregar", "The Ape City", "Children Of The Revolution", "The New Frontier", "Forgotten Knowledge", "Searoutes Around Yalahar", "The Explorer Society", "Spirithunters Quest, "} -- coloca os nomes das quests aqui
+local quests = {"What a Foolish", "War Against The Hive", "Unnatural Selection", "Tibia Tales", "The White Raven Monastery", "The Thieves Guild", "The Rookie Guard", "The Repenters", "The Queen of the Banshees", "The Ice Islands", "The Gravedigger of Drefia", "The Desert Dungeon", "The Beginning", "The Ancient Tombs", "Spike Tasks", "Secret Service", "Sea of Light", "Hot Cuisine", "Friends and Traders", "Elemental Spheres", "Adventurers Guild", "A Father's Burden", "The Shattered Isles", "The Postman Missions", "Bigfoot's Burden", "The Hidden City Of Beregar", "The Ape City", "Children Of The Revolution", "The New Frontier", "Forgotten Knowledge", "Sea routes Around Yalahar", "The Explorer Society", "Spirithunters Quest, "} -- coloca os nomes das quests aqui
 
 for i, questname in pairs(quests) do
     local quest = Game.getQuest(Game.getQuestIdByName(questname))

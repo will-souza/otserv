@@ -146,19 +146,19 @@ bool Weapons::registerLuaEvent(Weapon* event)
 
 	return true;
 }
-// Variacao do dano
+
 //monsters
 int32_t Weapons::getMaxMeleeDamage(int32_t attackSkill, int32_t attackValue)
 {
 	// editado era metade
-	return static_cast<int32_t>(std::ceil((attackSkill * (attackValue * 50.)) + (attackValue * 50.) * 10));
+	return static_cast<int32_t>(std::ceil((attackSkill * (attackValue * 0.05)) + (attackValue * 0.05)));
 }
 
 //players
 int32_t Weapons::getMaxWeaponDamage(uint32_t level, int32_t attackSkill, int32_t attackValue, float attackFactor)
 {
 	// editado era 4 e 3
-	return static_cast<int32_t>(std::round((level / 5) + (((((attackSkill / 3.) + 1) * (attackValue / 2.)) * 1.03) * 10 / attackFactor)));
+	return static_cast<int32_t>(std::round((level / 5) + (((((attackSkill / 4.) + 1) * (attackValue / 3.)) * 1.03) / attackFactor)));
 }
 
 bool Weapon::configureEvent(const pugi::xml_node& node)
