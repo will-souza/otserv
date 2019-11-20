@@ -151,7 +151,7 @@ bool Weapons::registerLuaEvent(Weapon* event)
 int32_t Weapons::getMaxMeleeDamage(int32_t attackSkill, int32_t attackValue)
 {
 	// editado era metade
-	return static_cast<int32_t>(std::ceil((attackSkill * (attackValue * 0.5)) + (attackValue * 0.5)));
+	return static_cast<int32_t>(std::ceil((attackSkill * (attackValue * 1)) + (attackValue * 1)));
 }
 
 //players
