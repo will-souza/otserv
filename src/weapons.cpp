@@ -146,12 +146,12 @@ bool Weapons::registerLuaEvent(Weapon* event)
 
 	return true;
 }
-
+// Variacao do dano
 //monsters
 int32_t Weapons::getMaxMeleeDamage(int32_t attackSkill, int32_t attackValue)
 {
 	// editado era metade
-	return static_cast<int32_t>(std::ceil((attackSkill * (attackValue * 10)) + (attackValue * 10)));
+	return static_cast<int32_t>(std::ceil((attackSkill * (attackValue * 50.)) + (attackValue * 50.)));
 }
 
 //players
