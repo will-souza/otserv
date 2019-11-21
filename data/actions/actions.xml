@@ -4,8 +4,8 @@
 	<action actionid="65535" script="others/mount1.lua"/>
 	<!-- Dolls -->
 	<!-- <action itemid="26339" script="others/stamina_refuel.lua"/> -->
-	<action itemid="32401" script="addons/modalAD.lua"/>
-	<action itemid="24317" script="addons/modalMD.lua"/>
+	<action itemid="32401" script="addons/addon_doll.lua"/>
+	<action itemid="24317" script="addons/mount_doll.lua"/>
 	<!-- Gold -->
 	<action itemid="2148" script="others/changegold.lua" />
 	<action itemid="2152" script="others/changegold.lua" />
