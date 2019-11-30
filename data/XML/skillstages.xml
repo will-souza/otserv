@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <skillstages>
 	<skills enabled="1">
-		<skill minskill="1" maxskill="70" multiplier="100" />
-		<skill minskill="71" maxskill="100" multiplier="50" />
+		<skill minskill="1" maxskill="80" multiplier="100" />
+		<skill minskill="81" maxskill="100" multiplier="50" />
 		<skill minskill="101" maxskill="110" multiplier="20" />
 		<skill minskill="111" multiplier="5" />
 	</skills>
