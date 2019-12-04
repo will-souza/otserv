@@ -241,7 +241,15 @@ GameStore.Categories = {
             price = 10,
             id = 32387,
             type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-            }
+            },
+            {
+                icons = { "XP_Boost.png" },
+                name = "XP Boost",
+                price = 20,
+                id = 65541,
+                type = GameStore.OfferTypes.OFFER_TYPE_EXPBOOST,
+                description = "Purchase a boost that increases the experience points your character gains from hunting by 50%!\n\n\n- only usable by purchasing character\n- lasts for 1 hour hunting time\n- paused if stamina falls under 14 hours\n- can be purchased up to 5 times between 2 server saves\n- price increases with every purchase\n- cannot be purchased if an XP boost is already active",
+            } 
           },
     rookgaard = true,
     state = GameStore.States.STATE_NONE,
@@ -800,7 +808,7 @@ GameStore.Categories = {
             count = 1,
             description = "umbral master hammer (Atk:55, Def:34, club fighting +3).\nIt can only be wielded properly by players of level 250 or higher.\nImbuements: (Empty Slot, Empty Slot).\nIt weighs 160.00 oz.",
             type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-            },
+            }
           },
     rookgaard = true,
     state = GameStore.States.STATE_NONE,
@@ -934,7 +942,7 @@ GameStore.Categories = {
             count = 1,
             description = "falcon bow (Range: 6, Atk +7, Hit% +5, distance fighting +2, protection fire +5%).\nIt can only be wielded properly by players of level 300 or higher.\nImbuements: (Empty Slot, Empty Slot, Empty Slot).\nIt weighs 35.00 oz.",
             type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-            },
+            }
           },
     rookgaard = true,
     state = GameStore.States.STATE_NONE,
@@ -1041,7 +1049,7 @@ GameStore.Categories = {
             count = 1,
             description = "umbral master spellbook (Def:20, magic level +4, protection energy +5%, earth +5%, fire +5%, ice +5%).\nIt can only be wielded properly by sorcerers and druids of level 250 or higher.\nImbuements: (Empty Slot).\nIt weighs 30.00 oz.",
             type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-            },
+            }
           },
     rookgaard = true,
     state = GameStore.States.STATE_NONE,
@@ -3249,41 +3257,8 @@ GameStore.Categories = {
                 price = 7,
                 id = 26058,
                 type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-              }, 
-        {
-                count = 1,
-                description = "Buy an incredible Menacing Tapestry to decorate your home.",
-                icons = { "Menacing_Tapestry.png" },
-                name = "Menacing Tapestry",
-                price = 7,
-                id = 26105,
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-              } },
-   rookgaard = true,
-   state = GameStore.States.STATE_NONE,
- }, 
- {
-   description = "Buy your character a boost to speed up your character development.",
-   icons = { "Category_Boosts.png" },
-   name = "Boosts",
-   offers = { 
-        {
-                icons = { "XP_Boost.png" },
-                name = "XP Boost",
-                price = 20,
-                id = 65541,
-                type = GameStore.OfferTypes.OFFER_TYPE_EXPBOOST,
-                description = "Purchase a boost that increases the experience points your character gains from hunting by 50%!\n\n\n- only usable by purchasing character\n- lasts for 1 hour hunting time\n- paused if stamina falls under 14 hours\n- can be purchased up to 5 times between 2 server saves\n- price increases with every purchase\n- cannot be purchased if an XP boost is already active",
-        } 
-      },
-   rookgaard = true,
-   state = GameStore.States.STATE_NONE,
- }, 
- {
-   description = "Buy your character one or more of the helpful items offered here.",
-   icons = { "Category_Convenience.png" },
-   name = "Useful Things",
-   offers = { {
+              },
+              {
                 icons = { "Prey_Wildcard.png" },
                 name = "5x Prey Willcard",
                 id = 65540,
@@ -3328,55 +3303,19 @@ GameStore.Categories = {
                 price = 5,
                 icons = { "Product_UsefulThings_MagicConverter.png" },
                 description = "Changes either a stack of 100 gold pieces into 1 platinum coin, or a stack of 100 platinum coins into 1 crystal coin!\n\n\n- only usable by purchasing character\n- will be sent to your Store inbox and can only be stored there and in depot box\n- use it on a stack of 100 to change it to the superior currency\n- usable 500 times a piece" 
-        }
- --[[         {
-                icons = { "Magic_Gold_Converter.png" },
-                name = "Magical Gold Converter",
-                id = 29020,
-                count = 500,
-                number = 1,
-                type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-                price = 15,
-                icons = { "Product_UsefulThings_MagicConverter.png" },
-                description = "Changes automatically either a stack of 100 gold pieces into 1 platinum coin, or a stack of 100 platinum coins into 1 crystal coin!\n\n\n- only usable by purchasing character\n- will be sent to your Store inbox and can only be stored there and in depot box\n- use it to activate or deactivate the automatic conversion\n- converts all stacks of 100 gold or platinum in the inventory whenever it is activated\n- deactivated upon purchase\n- usable for 500 conversions a piece" 
-        }
-  ]]
- --[[         {
-                icons = { "Charm_Expansion.png" },
-                name = "Charm Expansion",
-                id = 29020,
-                count = 500,
-                number = 1,
-                type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-                price = 450,
-                icons = { "Assign as many of your unlocked Charms as you like and get a 25% discount whenever you are removing a Charm from a creature!\n\n\n- only usable by purchasing character\n- can only be purchased once" 
-        }
-  ]]
- --[[         {
-                name = "Gold Pouch",
-                id = 26377,
+        }, 
+        {
                 count = 1,
-                type = GameStore.OfferTypes.OFFER_TYPE_POUCH,
-                price = 900,
-                icons = { "Product_MagicCoinPurse.png" },
-                description = "With Gold Pouch you can carry the amount of gold without having to keep many knapsacks in the backpack, this product allows you to be charged as much gold as your ability allows."
-        }
-  ]]
- --[[         {
-                icons = { "Instant_Reward_Access.png" },
-                name = "Instant Reward Access",
-                id = 29020,
-                count = 30,
-                number = 1,
-                type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-                price = 100,
-                icons = { "No matter where you are in Tibia, claim your daily reward on the spot!\n\n\n- only usable by purchasing character\n- added to your reward wall\n- maximum amount that can be owned by character: 90" 
-        }
-  ]]
-      },
+                description = "Buy an incredible Menacing Tapestry to decorate your home.",
+                icons = { "Menacing_Tapestry.png" },
+                name = "Menacing Tapestry",
+                price = 7,
+                id = 26105,
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+              } },
    rookgaard = true,
    state = GameStore.States.STATE_NONE,
-} }
+ }  }
 
 
 -- Each outfit must be uniquely identified to distinguish between addons.
