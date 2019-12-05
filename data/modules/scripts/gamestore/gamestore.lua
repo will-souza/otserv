@@ -35,7 +35,7 @@ GameStore.Categories = {
             id = 25175,
             count = 1,
             description = "Epic EK Armor (Arm:18, club fighting +7, sword fighting +7, axe fighting +7, protection death +15%).\nIt can only be wielded properly by knights of level 8 or higher.\nImbuements: (Empty Slot, Empty Slot).\nIt weighs 145.00 oz.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_ek_amulet.png" },
@@ -44,7 +44,7 @@ GameStore.Categories = {
             id = 5785,
             count = 1,
             description = "Epic EK Amulet (club fighting +4, sword fighting +4, axe fighting +4, magic level +3, speed +7).\nIt can only be wielded properly by knights of level 8 or higher.\nIt weighs 10.00 oz.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_rp_helmet.png" },
@@ -53,7 +53,7 @@ GameStore.Categories = {
             id = 24810,
             count = 1,
             description = "Epic RP Helmet (Arm:12, distance fighting +7, protection death +15%).\nImbuements: (Empty Slot).\nIt weighs 43.00 oz.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_rp_armor.png" },
@@ -62,7 +62,7 @@ GameStore.Categories = {
             id = 25179,
             count = 1,
             description = "Epic RP Armor (Arm:20, distance fighting +7, protection earth +15%).\nIt can only be wielded properly by paladins of level 8 or higher.\nImbuements: (Empty Slot, Empty Slot).\nIt weighs 145.00 oz.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_rp_amulet.png" },
@@ -71,7 +71,7 @@ GameStore.Categories = {
             id = 36103,
             count = 1,
             description = "Epic Amulet RP (distance fighting +4, magic level +3, speed +7).\nIt can only be wielded properly by paladins of level 8 or higher.\nIt weighs 5.00 oz.\nAmulet for Epics Paladins",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_mage_helmet.png" },
@@ -80,7 +80,7 @@ GameStore.Categories = {
             id = 13946,
             count = 1,
             description = "Epic Mage Helmet (Arm:12, magic level +7, protection death +15%).\nIt can only be wielded properly by druids and sorcerers of level 8 or higher.\nImbuements: (Empty Slot).\nIt weighs 15.00 oz",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_mage_armor.png" },
@@ -89,7 +89,7 @@ GameStore.Categories = {
             id = 25183,
             count = 1,
             description = "Epic Mage Armor (Arm:18, magic level +7, protection ice +15%, death +15%).\nIt can only be wielded properly by druids and sorcerers of level 8 or higher.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_mage_amulet.png" },
@@ -98,7 +98,7 @@ GameStore.Categories = {
             id = 10137,
             count = 1,
             description = "Epic Mage Amulet (shielding +2, magic level +5, speed +7).\nIt can only be wielded properly by druids and sorcerers of level 8 or higher.\nIt weighs 5.00 oz.\nAmulet for Epic Mage",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_boots.png" },
@@ -107,7 +107,7 @@ GameStore.Categories = {
             id = 2358,
             count = 1,
             description = "Epic Boots (+30 speed)\nRecuperacao HP:80\nRecuperacao MP:100\nTempo: 2sgundos",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }
           },
     rookgaard = true,
@@ -241,7 +241,15 @@ GameStore.Categories = {
             price = 10,
             id = 32387,
             type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-            }
+            },
+            {
+                icons = { "XP_Boost.png" },
+                name = "XP Boost",
+                price = 20,
+                id = 65541,
+                type = GameStore.OfferTypes.OFFER_TYPE_EXPBOOST,
+                description = "Purchase a boost that increases the experience points your character gains from hunting by 50%!\n\n\n- only usable by purchasing character\n- lasts for 1 hour hunting time\n- paused if stamina falls under 14 hours\n- can be purchased up to 5 times between 2 server saves\n- price increases with every purchase\n- cannot be purchased if an XP boost is already active",
+            } 
           },
     rookgaard = true,
     state = GameStore.States.STATE_NONE,
@@ -2757,41 +2765,8 @@ GameStore.Categories = {
                 price = 7,
                 id = 26058,
                 type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-              }, 
-        {
-                count = 1,
-                description = "Buy an incredible Menacing Tapestry to decorate your home.",
-                icons = { "Menacing_Tapestry.png" },
-                name = "Menacing Tapestry",
-                price = 7,
-                id = 26105,
-                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
-              } },
-   rookgaard = true,
-   state = GameStore.States.STATE_NONE,
- }, 
- {
-   description = "Buy your character a boost to speed up your character development.",
-   icons = { "Category_Boosts.png" },
-   name = "Boosts",
-   offers = { 
-        {
-                icons = { "XP_Boost.png" },
-                name = "XP Boost",
-                price = 20,
-                id = 65541,
-                type = GameStore.OfferTypes.OFFER_TYPE_EXPBOOST,
-                description = "Purchase a boost that increases the experience points your character gains from hunting by 50%!\n\n\n- only usable by purchasing character\n- lasts for 1 hour hunting time\n- paused if stamina falls under 14 hours\n- can be purchased up to 5 times between 2 server saves\n- price increases with every purchase\n- cannot be purchased if an XP boost is already active",
-        } 
-      },
-   rookgaard = true,
-   state = GameStore.States.STATE_NONE,
- }, 
- {
-   description = "Buy your character one or more of the helpful items offered here.",
-   icons = { "Category_Convenience.png" },
-   name = "Useful Things",
-   offers = { {
+              },
+              {
                 icons = { "Prey_Wildcard.png" },
                 name = "5x Prey Willcard",
                 id = 65540,
@@ -2836,55 +2811,19 @@ GameStore.Categories = {
                 price = 5,
                 icons = { "Product_UsefulThings_MagicConverter.png" },
                 description = "Changes either a stack of 100 gold pieces into 1 platinum coin, or a stack of 100 platinum coins into 1 crystal coin!\n\n\n- only usable by purchasing character\n- will be sent to your Store inbox and can only be stored there and in depot box\n- use it on a stack of 100 to change it to the superior currency\n- usable 500 times a piece" 
-        }
- --[[         {
-                icons = { "Magic_Gold_Converter.png" },
-                name = "Magical Gold Converter",
-                id = 29020,
-                count = 500,
-                number = 1,
-                type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-                price = 15,
-                icons = { "Product_UsefulThings_MagicConverter.png" },
-                description = "Changes automatically either a stack of 100 gold pieces into 1 platinum coin, or a stack of 100 platinum coins into 1 crystal coin!\n\n\n- only usable by purchasing character\n- will be sent to your Store inbox and can only be stored there and in depot box\n- use it to activate or deactivate the automatic conversion\n- converts all stacks of 100 gold or platinum in the inventory whenever it is activated\n- deactivated upon purchase\n- usable for 500 conversions a piece" 
-        }
-  ]]
- --[[         {
-                icons = { "Charm_Expansion.png" },
-                name = "Charm Expansion",
-                id = 29020,
-                count = 500,
-                number = 1,
-                type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-                price = 450,
-                icons = { "Assign as many of your unlocked Charms as you like and get a 25% discount whenever you are removing a Charm from a creature!\n\n\n- only usable by purchasing character\n- can only be purchased once" 
-        }
-  ]]
- --[[         {
-                name = "Gold Pouch",
-                id = 26377,
+        }, 
+        {
                 count = 1,
-                type = GameStore.OfferTypes.OFFER_TYPE_POUCH,
-                price = 900,
-                icons = { "Product_MagicCoinPurse.png" },
-                description = "With Gold Pouch you can carry the amount of gold without having to keep many knapsacks in the backpack, this product allows you to be charged as much gold as your ability allows."
-        }
-  ]]
- --[[         {
-                icons = { "Instant_Reward_Access.png" },
-                name = "Instant Reward Access",
-                id = 29020,
-                count = 30,
-                number = 1,
-                type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
-                price = 100,
-                icons = { "No matter where you are in Tibia, claim your daily reward on the spot!\n\n\n- only usable by purchasing character\n- added to your reward wall\n- maximum amount that can be owned by character: 90" 
-        }
-  ]]
-      },
+                description = "Buy an incredible Menacing Tapestry to decorate your home.",
+                icons = { "Menacing_Tapestry.png" },
+                name = "Menacing Tapestry",
+                price = 7,
+                id = 26105,
+                type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+              } },
    rookgaard = true,
    state = GameStore.States.STATE_NONE,
-} }
+ }  }
 
 
 -- Each outfit must be uniquely identified to distinguish between addons.
