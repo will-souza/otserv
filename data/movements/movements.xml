@@ -2337,7 +2337,7 @@
 	</movevent>
 	<movevent event="DeEquip" itemid="25922" slot="hand" function="onDeEquipItem" />
 	<!-- Spike Sword -->
-	<movevent event="Equip" itemid="2383" slot="hand" level="100" function="onEquipItem">
+	<movevent event="Equip" itemid="2383" slot="hand" level="1" function="onEquipItem">
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" showInDescription="0" />
 	</movevent>
