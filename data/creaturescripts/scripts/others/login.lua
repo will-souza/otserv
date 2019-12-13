@@ -35,6 +35,55 @@ function onLogin(player)
         loginStr = string.format('Your last visit was on %s.', os.date('%a %b %d %X %Y', player:getLastLoginSaved()))
     end
 
+--Quests Liberadas
+            --In Service of Yalahar 
+                player:setStorageValue(Storage.InServiceofYalahar.Questline, 5)
+                player:setStorageValue(Storage.InServiceofYalahar.Mission01, 6)
+                player:setStorageValue(Storage.InServiceofYalahar.Mission02, 8)
+                player:setStorageValue(Storage.InServiceofYalahar.Mission03, 6)
+                player:setStorageValue(Storage.InServiceofYalahar.Mission04, 6)
+                player:setStorageValue(Storage.InServiceofYalahar.Mission05, 8)
+                player:setStorageValue(Storage.InServiceofYalahar.Mission06, 5)
+                player:setStorageValue(Storage.InServiceofYalahar.Mission07, 5)
+                player:setStorageValue(Storage.InServiceofYalahar.Mission08, 4)
+                player:setStorageValue(Storage.InServiceofYalahar.Mission09, 2)
+            --WOTE
+                player:setStorageValue(Storage.WrathoftheEmperor.Questline, 1)
+                player:setStorageValue(Storage.WrathoftheEmperor.Mission01, 3)
+                player:setStorageValue(Storage.WrathoftheEmperor.Mission02, 3)
+                player:setStorageValue(Storage.WrathoftheEmperor.Mission03, 3)
+                player:setStorageValue(Storage.WrathoftheEmperor.Mission04, 3)
+                player:setStorageValue(Storage.WrathoftheEmperor.Mission05, 3)
+                player:setStorageValue(Storage.WrathoftheEmperor.Mission06, 4)
+                player:setStorageValue(Storage.WrathoftheEmperor.Mission07, 6)
+                player:setStorageValue(Storage.WrathoftheEmperor.Mission08, 2)
+                player:setStorageValue(Storage.WrathoftheEmperor.Mission09, 2)
+                player:setStorageValue(Storage.WrathoftheEmperor.Mission10, 1)
+            --Imbuiment
+                player:setStorageValue(Storage.ForgottenKnowledge.Tomes, 2)
+                player:setStorageValue(Storage.ForgottenKnowledge.LastLoreKilled, 2)    
+                player:setStorageValue(Storage.ForgottenKnowledge.TimeGuardianKilled, 2)
+                player:setStorageValue(Storage.ForgottenKnowledge.HorrorKilled, 2)
+                player:setStorageValue(Storage.ForgottenKnowledge.DragonkingKilled, 2)
+                player:setStorageValue(Storage.ForgottenKnowledge.ThornKnightKilled, 2)
+                player:setStorageValue(Storage.ForgottenKnowledge.LloydKilled, 2)
+                player:setStorageValue(Storage.ForgottenKnowledge.LadyTenebrisKilled, 2)
+                player:setStorageValue(Storage.ForgottenKnowledge.AccessMachine, 2)
+            --SearoutsYalahar
+                player:setStorageValue(Storage.SearoutesAroundYalahar.Darashia, 1)
+                player:setStorageValue(Storage.SearoutesAroundYalahar.AbDendriel, 1)
+                player:setStorageValue(Storage.SearoutesAroundYalahar.Venore, 1)
+                player:setStorageValue(Storage.SearoutesAroundYalahar.Ankrahmun, 1)
+                player:setStorageValue(Storage.SearoutesAroundYalahar.PortHope, 1)
+                player:setStorageValue(Storage.SearoutesAroundYalahar.Thais, 1)
+                player:setStorageValue(Storage.SearoutesAroundYalahar.LibertyBay, 1)
+                player:setStorageValue(Storage.SearoutesAroundYalahar.Carlin, 1)
+            -- Explorer Society
+                player:setStorageValue(Storage.ExplorerSociety.QuestLine, 1)
+                player:setStorageValue(Storage.ExplorerSociety.QuestLine, 1)
+                player:setStorageValue(Storage.ExplorerSociety.QuestLine, 1)
+                player:setStorageValue(Storage.ExplorerSociety.QuestLine, 1)
+
     player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
 
     local playerId = player:getId()
@@ -159,49 +208,7 @@ function onLogin(player)
 	
 	if player:getStorageValue(Storage.isTraining) == 1 then -- redefinir storage de exercise weapon
 		player:setStorageValue(Storage.isTraining,0)
-        --Quests Liberadas
-            --In Service of Yalahar 
-                player:setStorageValue(Storage.InServiceofYalahar.Questline, 5)
-                player:setStorageValue(Storage.InServiceofYalahar.Mission01, 6)
-                player:setStorageValue(Storage.InServiceofYalahar.Mission02, 8)
-                player:setStorageValue(Storage.InServiceofYalahar.Mission03, 6)
-                player:setStorageValue(Storage.InServiceofYalahar.Mission04, 6)
-                player:setStorageValue(Storage.InServiceofYalahar.Mission05, 8)
-                player:setStorageValue(Storage.InServiceofYalahar.Mission06, 5)
-                player:setStorageValue(Storage.InServiceofYalahar.Mission07, 5)
-                player:setStorageValue(Storage.InServiceofYalahar.Mission08, 4)
-                player:setStorageValue(Storage.InServiceofYalahar.Mission09, 2)
-            --WOTE
-                player:setStorageValue(Storage.WrathoftheEmperor.Questline, 1)
-                player:setStorageValue(Storage.WrathoftheEmperor.Mission01, 3)
-                player:setStorageValue(Storage.WrathoftheEmperor.Mission02, 3)
-                player:setStorageValue(Storage.WrathoftheEmperor.Mission03, 3)
-                player:setStorageValue(Storage.WrathoftheEmperor.Mission04, 3)
-                player:setStorageValue(Storage.WrathoftheEmperor.Mission05, 3)
-                player:setStorageValue(Storage.WrathoftheEmperor.Mission06, 4)
-                player:setStorageValue(Storage.WrathoftheEmperor.Mission07, 6)
-                player:setStorageValue(Storage.WrathoftheEmperor.Mission08, 2)
-                player:setStorageValue(Storage.WrathoftheEmperor.Mission09, 2)
-                player:setStorageValue(Storage.WrathoftheEmperor.Mission10, 1)
-            --Imbuiment
-                player:setStorageValue(Storage.ForgottenKnowledge.Tomes, 2)
-                player:setStorageValue(Storage.ForgottenKnowledge.LastLoreKilled, 2)    
-                player:setStorageValue(Storage.ForgottenKnowledge.TimeGuardianKilled, 2)
-                player:setStorageValue(Storage.ForgottenKnowledge.HorrorKilled, 2)
-                player:setStorageValue(Storage.ForgottenKnowledge.DragonkingKilled, 2)
-                player:setStorageValue(Storage.ForgottenKnowledge.ThornKnightKilled, 2)
-                player:setStorageValue(Storage.ForgottenKnowledge.LloydKilled, 2)
-                player:setStorageValue(Storage.ForgottenKnowledge.LadyTenebrisKilled, 2)
-                player:setStorageValue(Storage.ForgottenKnowledge.AccessMachine, 2)
-            --SearoutsYalahar
-                player:setStorageValue(Storage.SearoutesAroundYalahar.Darashia, 1)
-                player:setStorageValue(Storage.SearoutesAroundYalahar.AbDendriel, 1)
-                player:setStorageValue(Storage.SearoutesAroundYalahar.Venore, 1)
-                player:setStorageValue(Storage.SearoutesAroundYalahar.Ankrahmun, 1)
-                player:setStorageValue(Storage.SearoutesAroundYalahar.PortHope, 1)
-                player:setStorageValue(Storage.SearoutesAroundYalahar.Thais, 1)
-                player:setStorageValue(Storage.SearoutesAroundYalahar.LibertyBay, 1)
-                player:setStorageValue(Storage.SearoutesAroundYalahar.Carlin, 1)
+
     end
 	end
 local quests = {"What a Foolish", "War Against The Hive", "Unnatural Selection", "Tibia Tales", "The White Raven Monastery", "The Thieves Guild", "The Rookie Guard", "The Repenters", "The Queen of the Banshees", "The Ice Islands", "The Gravedigger of Drefia", "The Desert Dungeon", "The Beginning", "The Ancient Tombs", "Spike Tasks", "Secret Service", "Sea of Light", "Hot Cuisine", "Friends and Traders", "Elemental Spheres", "Adventurers Guild", "A Father's Burden", "The Shattered Isles", "The Postman Missions", "Bigfoot's Burden", "The Hidden City Of Beregar", "The Ape City", "Children Of The Revolution", "The New Frontier", "Forgotten Knowledge", "Searoutes Around Yalahar", "The Explorer Society", "The The Way to Yalahar", "Spirithunters Quest, "} -- coloca os nomes das quests aqui
