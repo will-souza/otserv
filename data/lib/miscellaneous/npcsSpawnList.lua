@@ -537,7 +537,7 @@ mapNpcs = {
     [537] = {name = "Oswald", pos = {x=32381,y=32220,z=7}},
     [538] = {name = "Quero", pos = {x=32390,y=32219,z=7}},
     [539] = {name = "Hanna", pos = {x=32408,y=32220,z=7}},
-    [540] = {name = "Xodet", pos = {x=32398,y=32222,z=7}},
+    [540] = {name = "Xodet", pos = {x=32399,y=32222,z=7}},
     [541] = {name = "Valindara", pos = {x=33504,y=32222,z=7}},
     [542] = {name = "Lily", pos = {x=32066,y=32225,z=7}},
     [543] = {name = "Taegen", pos = {x=33492,y=32227,z=7}},

@@ -26,7 +26,7 @@ GameStore.Categories = {
             id = 16105,
             count = 1,
             description = "Epic EK Helmet (Arm:12, club fighting +4, sword fighting +4, axe fighting +4, shielding +3, protection physical +5%, death +10%).\nIt can only be wielded properly by knights of level 8 or higher.\nImbuements: (Empty Slot).\nIt weighs 40.00 oz.\nYou see a medusa skull. Her hair's snakes are still alive.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_ek_armor.png" },
@@ -35,7 +35,7 @@ GameStore.Categories = {
             id = 25175,
             count = 1,
             description = "Epic EK Armor (Arm:18, club fighting +7, sword fighting +7, axe fighting +7, protection death +15%).\nIt can only be wielded properly by knights of level 8 or higher.\nImbuements: (Empty Slot, Empty Slot).\nIt weighs 145.00 oz.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_ek_amulet.png" },
@@ -44,7 +44,7 @@ GameStore.Categories = {
             id = 5785,
             count = 1,
             description = "Epic EK Amulet (club fighting +4, sword fighting +4, axe fighting +4, magic level +3, speed +7).\nIt can only be wielded properly by knights of level 8 or higher.\nIt weighs 10.00 oz.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_rp_helmet.png" },
@@ -53,7 +53,7 @@ GameStore.Categories = {
             id = 24810,
             count = 1,
             description = "Epic RP Helmet (Arm:12, distance fighting +7, protection death +15%).\nImbuements: (Empty Slot).\nIt weighs 43.00 oz.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_rp_armor.png" },
@@ -62,7 +62,7 @@ GameStore.Categories = {
             id = 25179,
             count = 1,
             description = "Epic RP Armor (Arm:20, distance fighting +7, protection earth +15%).\nIt can only be wielded properly by paladins of level 8 or higher.\nImbuements: (Empty Slot, Empty Slot).\nIt weighs 145.00 oz.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_rp_amulet.png" },
@@ -71,7 +71,7 @@ GameStore.Categories = {
             id = 36103,
             count = 1,
             description = "Epic Amulet RP (distance fighting +4, magic level +3, speed +7).\nIt can only be wielded properly by paladins of level 8 or higher.\nIt weighs 5.00 oz.\nAmulet for Epics Paladins",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_mage_helmet.png" },
@@ -80,7 +80,7 @@ GameStore.Categories = {
             id = 13946,
             count = 1,
             description = "Epic Mage Helmet (Arm:12, magic level +7, protection death +15%).\nIt can only be wielded properly by druids and sorcerers of level 8 or higher.\nImbuements: (Empty Slot).\nIt weighs 15.00 oz",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_mage_armor.png" },
@@ -89,7 +89,7 @@ GameStore.Categories = {
             id = 25183,
             count = 1,
             description = "Epic Mage Armor (Arm:18, magic level +7, protection ice +15%, death +15%).\nIt can only be wielded properly by druids and sorcerers of level 8 or higher.",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_mage_amulet.png" },
@@ -98,7 +98,7 @@ GameStore.Categories = {
             id = 10137,
             count = 1,
             description = "Epic Mage Amulet (shielding +2, magic level +5, speed +7).\nIt can only be wielded properly by druids and sorcerers of level 8 or higher.\nIt weighs 5.00 oz.\nAmulet for Epic Mage",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }, 
             {
             icons = { "epic_boots.png" },
@@ -107,7 +107,7 @@ GameStore.Categories = {
             id = 2358,
             count = 1,
             description = "Epic Boots (+30 speed)\nRecuperacao HP:80\nRecuperacao MP:100\nTempo: 2sgundos",
-            type = GameStore.OfferTypes.OFFER_TYPE_HOUSE,
+            type = GameStore.OfferTypes.OFFER_TYPE_STACKABLE,
             }
           },
     rookgaard = true,
