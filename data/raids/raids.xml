@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+on<?xml version="1.0" encoding="UTF-8"?>
 <raids>
 	<raid name="BossGaz" file="bossroom/bossgazharagoth.xml" interval2="10440" margin="160" />
 	<raid name="BossFerumbras" file="bossroom/bossferumbras.xml" interval2="11440" margin="160" />
@@ -26,7 +26,7 @@
 	<!-- Raids Venore -->
 	<raid name="Elves" file="venore/elves.xml" interval2="500" margin="80" />
 	<raid name="Dharalion" file="venore/dharalion.xml" interval2="500" margin="70" />
-	<raid name="Citizen" file="venore/feverish_citizen.xml" interval2="500" margin="40" />
+	<raid name="Citizen" file="venore/foneverish_citizen.xml" interval2="500" margin="40" />
 	<raid name="Hunters" file="venore/hunter.xml" interval2="500" margin="65" />
 	<raid name="Fernfang" file="venore/fernfang.xml" interval2="1440" margin="80" />
 	<raid name="The Old Widow" file="venore/the_old_widow.xml" interval2="1440" margin="60" />
